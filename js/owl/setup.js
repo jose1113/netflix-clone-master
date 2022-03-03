@@ -14,3 +14,18 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+window.onload = function () {
+    if (! localStorage.justOnce) {
+        localStorage.setItem("justOnce", "true")
+        window.location.href = "./logo/logo.html"
+    }
+}
+
+function emcima1() {
+    document.getElementById("img1").src = "https://media.giphy.com/media/lgcUUCXgC8mEo/giphy.gif"
+}
+
+function sair1() {
+    document.getElementById("img1").src = "./img/mini1.jpg"
+}
