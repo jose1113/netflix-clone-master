@@ -112,20 +112,34 @@ header nav a:hover{
 
 .carrosel-filmes{
     margin-top:5px;
+    display: flex;
+    flex-direction: column;
 }
 
+.title{
+    padding: 1rem;
+}
 
+.item .box-filme {
+    transition: transform 100ms ease-out, border-radius 200ms ease-out;
+}
 
+.item .box-filme {
+    width: 100%;
+    height: 100px;
+    background-size: cover!important;
+    background-position: center!important;
+}
+  
+.item .box-filme:hover {
+    border-radius: 10px;
+    transform: scale(1.5);
+    box-shadow: 0 0 2px #000a;
+}
 
-
-
-
-
-
-
-
-
-
+/* .item .box-filme:hover{
+    background: url(https://media.giphy.com/media/lgcUUCXgC8mEo/giphy.gif), skyblue;
+} */
 
 
 
