@@ -23,7 +23,7 @@ window.onload = function () {
 }
 
 function emcima1() {
-    document.getElementById("img1").src = "https://media.giphy.com/media/lgcUUCXgC8mEo/giphy.gif"
+    document.getElementById("img1").src = "./trailer/The-Umbrella-Academy-Trailer-oficial-[HD]-Netflix.gif"
 }
 
 function sair1() {
