@@ -130,3 +130,14 @@ $(".carrosel-filmes3").mouseover(function() { $(".btn2").css('visibility','visib
 $(".carrosel-filmes3").mouseout(function() { $(".btn2").css('visibility','hidden'); })
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+function getRandomString(length) {
+    var randomChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var result = '';
+    for ( var i = 0; i < length; i++ ) {
+        result += randomChars.charAt(Math.floor(Math.random() * randomChars.length));
+    }
+    return result;
+}
+
+document.getElementById("codigoFooter").innerHTML = "{" + getRandomString(33) + "}";
