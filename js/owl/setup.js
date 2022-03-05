@@ -128,3 +128,5 @@ $(".carrosel-filmes2").mouseout(function() { $(".btn1").css('visibility','hidden
 
 $(".carrosel-filmes3").mouseover(function() { $(".btn2").css('visibility','visible'); })
 $(".carrosel-filmes3").mouseout(function() { $(".btn2").css('visibility','hidden'); })
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
