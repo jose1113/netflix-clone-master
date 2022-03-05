@@ -1,6 +1,10 @@
-$('.owl-carousel').owlCarousel({
+var dots = $('.owl-dot')
+var owl = $('.owl-carousel')
+var owl2 = $("#first-carousel")
+
+owl.owlCarousel({
     loop:false,
-    margin:10,
+    margin:7,
     nav:false,
     dots: false,
     stagePadding: 50,
@@ -15,6 +19,33 @@ $('.owl-carousel').owlCarousel({
             items:5
         }
     }
+})
+
+owl2.owlCarousel({
+    loop:false,
+    margin:7,
+    nav:false,
+    dots: false,
+    stagePadding: 50,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+$("#botao_anterior").on('click', function(){
+    owl2.trigger('prev.owl.carousel')
+})
+
+$("#botao_proximo").on('click', function(){
+    owl2.trigger('next.owl.carousel')
 })
 
 window.onload = function () {

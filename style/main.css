@@ -116,6 +116,12 @@ header nav a:hover{
     flex-direction: column;
 }
 
+.carrosel-filmes1{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
 .title{
     padding: 1rem;
     margin-left: 34px;
@@ -142,3 +148,42 @@ header nav a:hover{
     background: url(https://media.giphy.com/media/lgcUUCXgC8mEo/giphy.gif), skyblue;
 } */
 
+#botao_anterior, #botao_proximo{
+    /* display: none; */
+    position: absolute;
+    top: 570px;
+    z-index: 2;
+}
+
+.fa-solid{
+    font-size: 2.5vw;
+    color: #fff;
+}
+
+#botao_anterior{
+    left: 35px;
+}
+
+#botao_proximo{
+    right: 35px;
+}
+
+#botao_anterior{
+    display: none;
+}
+
+#botao_anterior:hover .fa-chevron-left::before{
+    display: block !important;
+    background-color: rgba(20,20,20,.7);
+    background-size: 500px;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
