@@ -29,7 +29,7 @@ header .logo{
     margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
-    font-size:40px;
+    font-size: 40px;
 }
 
 header nav a{
@@ -63,7 +63,6 @@ header nav a:hover{
     margin-top: 10px;
     margin-bottom: 40px;
 }
-
 
 .filme-principal .titulo{
     margin-top: 15%;
@@ -144,14 +143,21 @@ header nav a:hover{
     box-shadow: 0 0 2px #000a;
 }
 
-/* .item .box-filme:hover{
-    background: url(https://media.giphy.com/media/lgcUUCXgC8mEo/giphy.gif), skyblue;
-} */
-
 #botao_anterior, #botao_proximo{
-    /* display: none; */
     position: absolute;
     top: 570px;
+    z-index: 2;
+}
+
+#botao_anterior1, #botao_proximo1{
+    position: absolute;
+    top: 760px;
+    z-index: 2;
+}
+
+#botao_anterior2, #botao_proximo2{
+    position: absolute;
+    top: 960px;
     z-index: 2;
 }
 
@@ -160,22 +166,16 @@ header nav a:hover{
     color: #fff;
 }
 
-#botao_anterior{
+.navegacao .btn{
+    background: rgba(20,20,20,.7);
+}
+
+#botao_anterior, #botao_anterior1, #botao_anterior2{
     left: 35px;
 }
 
-#botao_proximo{
+#botao_proximo, #botao_proximo1, #botao_proximo2{
     right: 35px;
-}
-
-#botao_anterior{
-    display: none;
-}
-
-#botao_anterior:hover .fa-chevron-left::before{
-    display: block !important;
-    background-color: rgba(20,20,20,.7);
-    background-size: 500px;
 }
 
 button, input[type="submit"], input[type="reset"] {
