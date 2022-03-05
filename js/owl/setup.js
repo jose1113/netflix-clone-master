@@ -141,3 +141,4 @@ function getRandomString(length) {
 }
 
 document.getElementById("codigoFooter").innerHTML = "{" + getRandomString(33) + "}";
+

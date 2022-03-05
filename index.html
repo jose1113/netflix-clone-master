@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
-    <script src="https://kit.fontawesome.com/4705a68ea2.js" crossorigin="anonymous"></script>
 
     <!--responsividade-->
     <link rel="stylesheet" href="style/responsive.css">
@@ -41,7 +40,7 @@
                         <i class="fas fa-play"></i>
                         ASSISTIR AGORA
                     </button>
-                    <a href="house-of-cards.html">
+                    <a href="#moreInfo" rel="modal:open">
                         <button role="button" class="botao">
                             <i class="fas fa-info-circle"></i>
                                 MAIS INFORMAÇÕES
@@ -190,8 +189,13 @@
             </button>
         </div>
     </div>
-    
-    
+
+    <div id="moreInfo" class="modal" style="color: black;">
+        <p>Thanks for clicking. That felt good.</p>
+        <a href="#" rel="modal:close">Close</a>
+    </div>
+          
+
     <footer>
         <div class="icons-social">
             <a class="social-link" href="https://www.facebook.com/netflixbrasil" target="_blank" aria-label="facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-icon svg-icon-facebook-logo"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.9868 13.1621V21.9841H10.0418V13.1621H6.8418V9.51207H10.0468V6.73207C10.0468 3.56707 11.9318 1.82007 14.8148 1.82007C15.7616 1.83321 16.7061 1.91577 17.6408 2.06707V5.17307H16.0448C15.4952 5.10007 14.9422 5.28088 14.5419 5.66447C14.1415 6.04807 13.9373 6.59284 13.9868 7.14507V9.51207H17.4868L16.9278 13.1621H13.9868Z" fill="currentColor"></path></svg></a>
@@ -231,8 +235,15 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="https://kit.fontawesome.com/4705a68ea2.js" crossorigin="anonymous"></script>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <!-- Remember to include jQuery :) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </body>
 </html>
