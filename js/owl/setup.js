@@ -142,3 +142,16 @@ function getRandomString(length) {
 
 document.getElementById("codigoFooter").innerHTML = "{" + getRandomString(33) + "}";
 
+function change() {
+  let i = document.getElementById("volume")
+
+    if (i.classList.contains("fa-volume-xmark")) {
+      i.classList.remove("fa-volume-xmark");
+      i.classList.add("fa-volume-high");
+    } else {
+      i.classList.remove("fa-volume-high");
+      i.classList.add("fa-volume-xmark");
+      
+    }
+    
+  }

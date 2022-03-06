@@ -249,7 +249,6 @@ footer{
 }
 
 .botaoPlay{
-    border: 1px solid white;
     background-color: white;
     color: black;
     padding-left: 2rem;
@@ -262,6 +261,10 @@ footer{
     font-weight: bold;
 }
 
+.botaoPlay:hover{
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
 .botaoPlay i{
     margin-right: 5px;
 }
@@ -270,25 +273,57 @@ footer{
     height: 17vw;
 }
 
-.addList svg{
+.addList svg, .buttonLike svg, .buttonDislike svg, .buttonSound{
     display: block;
     border-width: 2px;
-    background-color: rgba(42,42,42,.6);
     color: white;
-    border: 2px solid rgba(255,255,255,.5);
-    border-radius: 50%;
     min-width: 32px;
     min-height: 32px;
     max-width: 42px;
     max-height: 42px;
     cursor: pointer;
+    padding: 7px;
 }
 
-.addList{
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
+.addList, .buttonLike, .buttonDislike, .buttonSound{
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 50%;
+    background-color: rgba(42,42,42,.6);
+    margin-left: 10px;
 }
 
-.addList:hover svg{
+.buttonDislike{
+    margin-right: 7vw;
+}
+
+.buttonSound i{
+    opacity: 0.4;
+    font-size: 15px;
+}
+
+.buttonSound:hover i{
+    opacity: 1;
+}
+
+.buttonSound{
+    transition: 0.5s;
+}
+
+.buttonSound:hover{
+    color: white;
     border: 2px solid rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 0.5s;
+}
+
+.addList:hover, .buttonLike:hover, .buttonDislike:hover{
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.flexModal{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    min-height: 2em;
 }
