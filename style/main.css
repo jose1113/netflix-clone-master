@@ -344,6 +344,8 @@ footer{
 }
 
 .content{
+    display: flex;
+    flex-direction: column;
     height: 100%;
     background-color: #181818;
 }
@@ -357,11 +359,10 @@ footer{
 }
 
 .contentText{
-    display: flex;
-    align-items: center;
     color: white;
     padding: 0 3em;
     padding-top: 3vw;
+    width: 80vw;
 }
 
 .contentText p{
@@ -407,3 +408,38 @@ footer{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0089fff1', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
     z-index: -3;
 }
+
+.details{
+    padding-right: 3em;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.cast, .genre{
+    margin-bottom: 1vw;
+}
+
+.cast span, .genre span, .scenes span{
+    color: #777;
+}
+
+.moreCast{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+
+.cast a, .genre a, .scenes a{
+    color: white;
+    text-decoration: none;
+}
+
+.cast a:hover, .genre a:hover, .scenes a:hover{
+    text-decoration: underline;
+}
+
+.contentBody{
+    display: flex;
+}
+
