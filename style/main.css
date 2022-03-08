@@ -443,3 +443,31 @@ footer{
     display: flex;
 }
 
+.episodeSelector{
+    padding: 0 2em;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+
+.episodeSelector h3{
+    color: white;
+}
+
+.episodeSelector hr{
+    color: white;
+}
+
+.episodeSelector select{
+    border: 0.1em solid rgb(77, 77, 77);
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 0.2em;
+    min-width: 4em;
+    cursor: pointer;
+    font-size: 17px;
+}

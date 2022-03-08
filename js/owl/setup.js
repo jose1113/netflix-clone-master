@@ -152,6 +152,5 @@ function change() {
       i.classList.remove("fa-volume-high");
       i.classList.add("fa-volume-xmark");
       
-    }
-    
+    }    
 }
