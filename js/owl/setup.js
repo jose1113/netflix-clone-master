@@ -120,6 +120,7 @@ $(document).ready(function() {$(".btn").css('visibility','hidden')})
 $(document).ready(function() {$(".btn1").css('visibility','hidden')})
 $(document).ready(function() {$(".btn2").css('visibility','hidden')})
 $(document).ready(function() {$(".circle").css('visibility','hidden')})
+$(document).ready(function() {$(".circle2").css('visibility','hidden')})
 
 $(".carrosel-filmes1").mouseover(function() { $(".btn").css('visibility','visible'); })
 $(".carrosel-filmes1").mouseout(function() { $(".btn").css('visibility','hidden'); })
@@ -132,6 +133,9 @@ $(".carrosel-filmes3").mouseout(function() { $(".btn2").css('visibility','hidden
 
 $(".chapters").mouseover(function() { $(".circle").css('visibility','visible'); })
 $(".chapters").mouseout(function() { $(".circle").css('visibility','hidden'); })
+
+$(".chapters2").mouseover(function() { $(".circle2").css('visibility','visible'); })
+$(".chapters2").mouseout(function() { $(".circle2").css('visibility','hidden'); })
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
