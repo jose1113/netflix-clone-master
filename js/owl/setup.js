@@ -121,6 +121,9 @@ $(document).ready(function() {$(".btn1").css('visibility','hidden')})
 $(document).ready(function() {$(".btn2").css('visibility','hidden')})
 $(document).ready(function() {$(".circle").css('visibility','hidden')})
 $(document).ready(function() {$(".circle2").css('visibility','hidden')})
+$(document).ready(function() {$(".circle3").css('visibility','hidden')})
+$(document).ready(function() {$(".circle4").css('visibility','hidden')})
+$(document).ready(function() {$(".circle5").css('visibility','hidden')})
 
 $(".carrosel-filmes1").mouseover(function() { $(".btn").css('visibility','visible'); })
 $(".carrosel-filmes1").mouseout(function() { $(".btn").css('visibility','hidden'); })
@@ -136,6 +139,15 @@ $(".chapters").mouseout(function() { $(".circle").css('visibility','hidden'); })
 
 $(".chapters2").mouseover(function() { $(".circle2").css('visibility','visible'); })
 $(".chapters2").mouseout(function() { $(".circle2").css('visibility','hidden'); })
+
+$(".chapters3").mouseover(function() { $(".circle3").css('visibility','visible'); })
+$(".chapters3").mouseout(function() { $(".circle3").css('visibility','hidden'); })
+
+$(".chapters4").mouseover(function() { $(".circle4").css('visibility','visible'); })
+$(".chapters4").mouseout(function() { $(".circle4").css('visibility','hidden'); })
+
+$(".chapters5").mouseover(function() { $(".circle5").css('visibility','visible'); })
+$(".chapters5").mouseout(function() { $(".circle5").css('visibility','hidden'); })
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
