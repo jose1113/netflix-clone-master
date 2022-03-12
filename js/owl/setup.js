@@ -129,6 +129,10 @@ $(document).ready(function() {$(".circle7").css('visibility','hidden')})
 $(document).ready(function() {$(".circle8").css('visibility','hidden')})
 $(document).ready(function() {$(".circle9").css('visibility','hidden')})
 $(document).ready(function() {$(".circle10").css('visibility','hidden')})
+$(document).ready(function() {$(".circle11").css('visibility','hidden')})
+$(document).ready(function() {$(".circle12").css('visibility','hidden')})
+$(document).ready(function() {$(".circle13").css('visibility','hidden')})
+$(document).ready(function() {$(".moreChapters").css('display','none')})
 
 $(".carrosel-filmes1").mouseover(function() { $(".btn").css('visibility','visible'); })
 $(".carrosel-filmes1").mouseout(function() { $(".btn").css('visibility','hidden'); })
@@ -169,6 +173,15 @@ $(".chapters9").mouseout(function() { $(".circle9").css('visibility','hidden'); 
 $(".chapters10").mouseover(function() { $(".circle10").css('visibility','visible'); })
 $(".chapters10").mouseout(function() { $(".circle10").css('visibility','hidden'); })
 
+$(".chapters11").mouseover(function() { $(".circle11").css('visibility','visible'); })
+$(".chapters11").mouseout(function() { $(".circle11").css('visibility','hidden'); })
+
+$(".chapters12").mouseover(function() { $(".circle12").css('visibility','visible'); })
+$(".chapters12").mouseout(function() { $(".circle12").css('visibility','hidden'); })
+
+$(".chapters13").mouseover(function() { $(".circle13").css('visibility','visible'); })
+$(".chapters13").mouseout(function() { $(".circle13").css('visibility','hidden'); })
+
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
 function getRandomString(length) {
@@ -194,3 +207,24 @@ function change() {
       
     }    
 }
+
+$(".divider").on('click', function(){
+    $('.moreChapters').toggle(0, function () {
+        $(".divider").css('display','none');
+        $(".divider2").css('display','block');
+    })
+})
+
+$(".divider2").on('click', function(){
+    $('.moreChapters').toggle(0, function () {
+        $(".divider").css('display','block');
+        $(".divider2").css('display','none');
+    })
+})
+
+
+
+// $(".divider").on('dbclick', function(){
+//     $(".moreChapters").css('display','none');
+//     $(".divider").css('top','2390px');
+// })
