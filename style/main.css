@@ -497,7 +497,10 @@ footer{
     margin-left: 1.2vw;
 }
 
-.chapters10 .number{
+.chapters10 .number,
+.chapters11 .number,
+.chapters12 .number,
+.chapters13 .number{
     font-size: 1.5em;
     color: #d2d2d2;
     margin-left: 0.2vw;
@@ -541,7 +544,10 @@ footer{
 .circle7,
 .circle8,
 .circle9,
-.circle10{
+.circle10,
+.circle11,
+.circle12,
+.circle13{
 	display: flex;
 	width: 3em;
 	height: 3em;
@@ -615,6 +621,24 @@ footer{
     position: absolute;
 }
 
+.playIcon11{
+    top: 2462px;
+    right: 645px;
+    position: absolute;
+}
+
+.playIcon12{
+    top: 2622px;
+    right: 645px;
+    position: absolute;
+}
+
+.playIcon13{
+    top: 2785px;
+    right: 645px;
+    position: absolute;
+}
+
 .chapters2,
 .chapters3,
 .chapters4,
@@ -623,7 +647,10 @@ footer{
 .chapters7,
 .chapters8,
 .chapters9,
-.chapters10{
+.chapters10,
+.chapters11,
+.chapters12,
+.chapters13{
     display: flex;
     align-items: center;
     color: white;
@@ -636,7 +663,22 @@ footer{
 
 .divider{
     top: 2390px;
-    left: 50%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 40px;
+    position: absolute;
+}
+
+.divider2{
+    display: none;
+    top: 2870px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 40px;
     position: absolute;
 }
 
@@ -658,4 +700,17 @@ footer{
 	text-decoration: none;
 	background-color: rgba(42,42,42,.6);
     cursor: pointer;
+}
+
+.moreLike{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+
+.moreLike h3{
+    color: white;
 }
