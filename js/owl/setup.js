@@ -222,9 +222,12 @@ $(".divider2").on('click', function(){
     })
 })
 
-
-
-// $(".divider").on('dbclick', function(){
-//     $(".moreChapters").css('display','none');
-//     $(".divider").css('top','2390px');
-// })
+$("select").change(function() {
+    if ($(this).val() === 'temp2') {
+        $(".containerTemp1").css('display','none');
+        $(".containerTemp2").css('display','block');
+    } else if ($(this).val() === 'temp1'){
+        $(".containerTemp1").css('display','block');
+        $(".containerTemp2").css('display','none');
+    }
+});

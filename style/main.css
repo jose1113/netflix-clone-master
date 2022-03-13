@@ -714,3 +714,7 @@ footer{
 .moreLike h3{
     color: white;
 }
+
+.containerTemp2{
+    display: none;
+}
