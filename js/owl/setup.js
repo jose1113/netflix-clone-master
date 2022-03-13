@@ -210,19 +210,19 @@ function change() {
 
 $(".divider").on('click', function(){
     $('.moreChapters').toggle(0, function () {
-        $(".divider").css('display','none');
-        $(".divider2").css('display','block');
+        $(".divider").css('display','none')
+        $(".divider2").css('display','block')
     })
 })
 
 $(".divider2").on('click', function(){
     $('.moreChapters').toggle(0, function () {
-        $(".divider").css('display','block');
-        $(".divider2").css('display','none');
+        $(".divider").css('display','block')
+        $(".divider2").css('display','none')
     })
 })
 
-$("select").change(function() {
+$("select").change( function() {
     if ($(this).val() === 'temp1') {
         $(".containerTemp1").css('display','block')
         $(".containerTemp2").css('display','none')
@@ -258,6 +258,7 @@ $("select").change(function() {
         $(".containerTemp4").css('display','none')
         $(".containerTemp5").css('display','block')
         $(".containerTemp6").css('display','none')
+        $(".divider").css('display','block')
     } else if ($(this).val() === 'temp6'){
         $(".containerTemp1").css('display','none')
         $(".containerTemp2").css('display','none')
@@ -265,5 +266,7 @@ $("select").change(function() {
         $(".containerTemp4").css('display','none')
         $(".containerTemp5").css('display','none')
         $(".containerTemp6").css('display','block')
+        $(".divider").css('display','none')
+        $(".divider2").css('display','none')
     }
 })
