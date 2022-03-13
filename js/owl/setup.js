@@ -223,11 +223,47 @@ $(".divider2").on('click', function(){
 })
 
 $("select").change(function() {
-    if ($(this).val() === 'temp2') {
-        $(".containerTemp1").css('display','none');
-        $(".containerTemp2").css('display','block');
-    } else if ($(this).val() === 'temp1'){
-        $(".containerTemp1").css('display','block');
-        $(".containerTemp2").css('display','none');
+    if ($(this).val() === 'temp1') {
+        $(".containerTemp1").css('display','block')
+        $(".containerTemp2").css('display','none')
+        $(".containerTemp3").css('display','none')
+        $(".containerTemp4").css('display','none')
+        $(".containerTemp5").css('display','none')
+        $(".containerTemp6").css('display','none')
+    } else if ($(this).val() === 'temp2'){
+        $(".containerTemp1").css('display','none')
+        $(".containerTemp2").css('display','block')
+        $(".containerTemp3").css('display','none')
+        $(".containerTemp4").css('display','none')
+        $(".containerTemp5").css('display','none')
+        $(".containerTemp6").css('display','none')
+    } else if ($(this).val() === 'temp3'){
+        $(".containerTemp1").css('display','none')
+        $(".containerTemp2").css('display','none')
+        $(".containerTemp3").css('display','block')
+        $(".containerTemp4").css('display','none')
+        $(".containerTemp5").css('display','none')
+        $(".containerTemp6").css('display','none')
+    } else if ($(this).val() === 'temp4'){
+        $(".containerTemp1").css('display','none')
+        $(".containerTemp2").css('display','none')
+        $(".containerTemp3").css('display','none')
+        $(".containerTemp4").css('display','block')
+        $(".containerTemp5").css('display','none')
+        $(".containerTemp6").css('display','none')
+    } else if ($(this).val() === 'temp5'){
+        $(".containerTemp1").css('display','none')
+        $(".containerTemp2").css('display','none')
+        $(".containerTemp3").css('display','none')
+        $(".containerTemp4").css('display','none')
+        $(".containerTemp5").css('display','block')
+        $(".containerTemp6").css('display','none')
+    } else if ($(this).val() === 'temp6'){
+        $(".containerTemp1").css('display','none')
+        $(".containerTemp2").css('display','none')
+        $(".containerTemp3").css('display','none')
+        $(".containerTemp4").css('display','none')
+        $(".containerTemp5").css('display','none')
+        $(".containerTemp6").css('display','block')
     }
-});
+})
