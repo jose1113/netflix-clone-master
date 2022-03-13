@@ -133,6 +133,9 @@ $(document).ready(function() {$(".circle11").css('visibility','hidden')})
 $(document).ready(function() {$(".circle12").css('visibility','hidden')})
 $(document).ready(function() {$(".circle13").css('visibility','hidden')})
 $(document).ready(function() {$(".moreChapters").css('display','none')})
+$(document).ready(function() {$(".allEpisode2").css('display','none')})
+$(document).ready(function() {$(".blockTemp1").css('display','none')})
+
 
 $(".carrosel-filmes1").mouseover(function() { $(".btn").css('visibility','visible'); })
 $(".carrosel-filmes1").mouseout(function() { $(".btn").css('visibility','hidden'); })
@@ -268,5 +271,18 @@ $("select").change( function() {
         $(".containerTemp6").css('display','block')
         $(".divider").css('display','none')
         $(".divider2").css('display','none')
+        $(".allEpisode2").css('display','none')
+    } else if ($(this).val() === 'allEpisode'){
+        $(".blockTemp1").css('display','block')
+        $(".blockTemp2").css('display','block')
+        $(".blockTemp3").css('display','block')
+        $(".blockTemp4").css('display','block')
+        $(".blockTemp5").css('display','block')
+        $(".blockTemp6").css('display','block')
+        $(".allEpisode1").css('display','none')
+        $(".allEpisode2").css('display','block')
+        $(".divider").css('display','none')
+        $(".divider2").css('display','none')
+        $(".moreChapters").css('display','block')
     }
 })

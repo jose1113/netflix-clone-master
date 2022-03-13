@@ -451,6 +451,21 @@ footer{
     margin-bottom: 20px;
 }
 
+.blockTemp1 h3,
+.blockTemp2 h3,
+.blockTemp3 h3,
+.blockTemp4 h3,
+.blockTemp5 h3,
+.blockTemp6 h3{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+    color: white;
+}
+
 .episodeSelector h3{
     color: white;
 }
@@ -476,6 +491,23 @@ footer{
     color: white;
     background-color: #333;
     border-top: 1px solid #404040;
+    min-height: 10em;
+    border-bottom: 1px solid #404040;
+    padding: 1em;
+    border-radius: .25em;
+    cursor: pointer;
+}
+
+.blockTemp2 .chapters,
+.blockTemp3 .chapters,
+.blockTemp4 .chapters,
+.blockTemp5 .chapters,
+.blockTemp6 .chapters{
+    display: flex;
+    align-items: center;
+    color: white;
+    border-top: none !important;
+    background-color: transparent !important;
     min-height: 10em;
     border-bottom: 1px solid #404040;
     padding: 1em;
@@ -639,6 +671,444 @@ footer{
     position: absolute;
 }
 
+.blockTemp1 .chapters .playIcon{
+    top: 955px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp1 .chapters2 .playIcon2{
+    top: 1115px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp1 .chapters3 .playIcon3{
+    top: 1275px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp1 .chapters4 .playIcon4{
+    top: 1435px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp1 .chapters5 .playIcon5{
+    top: 1593px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp1 .chapters6 .playIcon6{
+    top: 1756px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp1 .chapters7 .playIcon7{
+    top: 1913px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp1 .chapters8 .playIcon8{
+    top: 2075px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp1 .chapters9 .playIcon9{
+    top: 2233px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp1 .chapters10 .playIcon10{
+    top: 2393px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp1 .chapters11 .playIcon11{
+    top: 2553px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp1 .chapters12 .playIcon12{
+    top: 2713px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp1 .chapters13 .playIcon13{
+    top: 2877px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp2 .chapters .playIcon{
+    top: 3127px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp2 .chapters2 .playIcon2{
+    top: 3285px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp2 .chapters3 .playIcon3{
+    top: 3443px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp2 .chapters4 .playIcon4{
+    top: 3605px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp2 .chapters5 .playIcon5{
+    top: 3765px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp2 .chapters6 .playIcon6{
+    top: 3927px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp2 .chapters7 .playIcon7{
+    top: 4087px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp2 .chapters8 .playIcon8{
+    top: 4247px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp2 .chapters9 .playIcon9{
+    top: 4405px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp2 .chapters10 .playIcon10{
+    top: 4565px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp2 .chapters11 .playIcon11{
+    top: 4727px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp2 .chapters12 .playIcon12{
+    top: 4885px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp2 .chapters13 .playIcon13{
+    top: 5045px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp3 .chapters .playIcon{
+    top: 5297px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp3 .chapters2 .playIcon2{
+    top: 5455px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp3 .chapters3 .playIcon3{
+    top: 5617px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp3 .chapters4 .playIcon4{
+    top: 5777px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp3 .chapters5 .playIcon5{
+    top: 5937px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp3 .chapters6 .playIcon6{
+    top: 6097px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp3 .chapters7 .playIcon7{
+    top: 6257px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp3 .chapters8 .playIcon8{
+    top: 6417px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp3 .chapters9 .playIcon9{
+    top: 6575px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp3 .chapters10 .playIcon10{
+    top: 6737px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp3 .chapters11 .playIcon11{
+    top: 6897px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp3 .chapters12 .playIcon12{
+    top: 7057px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp3 .chapters13 .playIcon13{
+    top: 7217px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp4 .chapters .playIcon{
+    top: 7467px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp4 .chapters2 .playIcon2{
+    top: 7630px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp4 .chapters3 .playIcon3{
+    top: 7787px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp4 .chapters4 .playIcon4{
+    top: 7947px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp4 .chapters5 .playIcon5{
+    top: 8107px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp4 .chapters6 .playIcon6{
+    top: 8267px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp4 .chapters7 .playIcon7{
+    top: 8427px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp4 .chapters8 .playIcon8{
+    top: 8587px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp4 .chapters9 .playIcon9{
+    top: 8747px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp4 .chapters10 .playIcon10{
+    top: 8907px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp4 .chapters11 .playIcon11{
+    top: 9067px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp4 .chapters12 .playIcon12{
+    top: 9227px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp4 .chapters13 .playIcon13{
+    top: 9387px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp5 .chapters .playIcon{
+    top: 9637px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp5 .chapters2 .playIcon2{
+    top: 9797px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp5 .chapters3 .playIcon3{
+    top: 9957px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp5 .chapters4 .playIcon4{
+    top: 10120px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp5 .chapters5 .playIcon5{
+    top: 10277px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp5 .chapters6 .playIcon6{
+    top: 10435px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp5 .chapters7 .playIcon7{
+    top: 10597px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp5 .chapters8 .playIcon8{
+    top: 10757px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp5 .chapters9 .playIcon9{
+    top: 10920px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp5 .chapters10 .playIcon10{
+    top: 11080px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp5 .chapters11 .playIcon11{
+    top: 11237px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp5 .chapters12 .playIcon12{
+    top: 11400px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp5 .chapters13 .playIcon13{
+    top: 11557px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp6 .chapters .playIcon{
+    top: 11807px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp6 .chapters2 .playIcon2{
+    top: 11970px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp6 .chapters3 .playIcon3{
+    top: 12130px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp6 .chapters4 .playIcon4{
+    top: 12290px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp6 .chapters5 .playIcon5{
+    top: 12450px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp6 .chapters6 .playIcon6{
+    top: 12610px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp6 .chapters7 .playIcon7{
+    top: 12770px;
+    right: 645px;
+    position: absolute;
+}
+
+.blockTemp6 .chapters8 .playIcon8{
+    top: 12930px;
+    right: 645px;
+    position: absolute;
+}
+
 .chapters2,
 .chapters3,
 .chapters4,
@@ -719,6 +1189,7 @@ footer{
 .containerTemp3,
 .containerTemp4,
 .containerTemp5,
-.containerTemp6{
+.containerTemp6,
+.allEpisode{
     display: none;
 }
