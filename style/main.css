@@ -715,6 +715,10 @@ footer{
     color: white;
 }
 
-.containerTemp2{
+.containerTemp2,
+.containerTemp3,
+.containerTemp4,
+.containerTemp5,
+.containerTemp6{
     display: none;
 }
