@@ -133,8 +133,6 @@ $(document).ready(function() {$(".circle11").css('visibility','hidden')})
 $(document).ready(function() {$(".circle12").css('visibility','hidden')})
 $(document).ready(function() {$(".circle13").css('visibility','hidden')})
 $(document).ready(function() {$(".moreChapters").css('display','none')})
-$(document).ready(function() {$(".allEpisode2").css('display','none')})
-$(document).ready(function() {$(".blockTemp1").css('display','none')})
 
 
 $(".carrosel-filmes1").mouseover(function() { $(".btn").css('visibility','visible'); })
@@ -225,6 +223,7 @@ $(".divider2").on('click', function(){
     })
 })
 
+
 $("select").change( function() {
     if ($(this).val() === 'temp1') {
         $(".containerTemp1").css('display','block')
@@ -233,6 +232,7 @@ $("select").change( function() {
         $(".containerTemp4").css('display','none')
         $(".containerTemp5").css('display','none')
         $(".containerTemp6").css('display','none')
+        $(".moreChapters").css('display','none')
     } else if ($(this).val() === 'temp2'){
         $(".containerTemp1").css('display','none')
         $(".containerTemp2").css('display','block')
@@ -240,6 +240,7 @@ $("select").change( function() {
         $(".containerTemp4").css('display','none')
         $(".containerTemp5").css('display','none')
         $(".containerTemp6").css('display','none')
+        $(".moreChapters").css('display','none')
     } else if ($(this).val() === 'temp3'){
         $(".containerTemp1").css('display','none')
         $(".containerTemp2").css('display','none')
@@ -247,6 +248,7 @@ $("select").change( function() {
         $(".containerTemp4").css('display','none')
         $(".containerTemp5").css('display','none')
         $(".containerTemp6").css('display','none')
+        $(".moreChapters").css('display','none')
     } else if ($(this).val() === 'temp4'){
         $(".containerTemp1").css('display','none')
         $(".containerTemp2").css('display','none')
@@ -254,6 +256,7 @@ $("select").change( function() {
         $(".containerTemp4").css('display','block')
         $(".containerTemp5").css('display','none')
         $(".containerTemp6").css('display','none')
+        $(".moreChapters").css('display','none')
     } else if ($(this).val() === 'temp5'){
         $(".containerTemp1").css('display','none')
         $(".containerTemp2").css('display','none')
@@ -261,7 +264,7 @@ $("select").change( function() {
         $(".containerTemp4").css('display','none')
         $(".containerTemp5").css('display','block')
         $(".containerTemp6").css('display','none')
-        $(".divider").css('display','block')
+        $(".moreChapters").css('display','none')
     } else if ($(this).val() === 'temp6'){
         $(".containerTemp1").css('display','none')
         $(".containerTemp2").css('display','none')
@@ -271,8 +274,14 @@ $("select").change( function() {
         $(".containerTemp6").css('display','block')
         $(".divider").css('display','none')
         $(".divider2").css('display','none')
+        $(".allEpisode1").css('display','block')
         $(".allEpisode2").css('display','none')
-    } else if ($(this).val() === 'allEpisode'){
+    }
+})
+
+
+$("select").change( function(){
+    if ($(this).val() === 'allEpisode'){
         $(".blockTemp1").css('display','block')
         $(".blockTemp2").css('display','block')
         $(".blockTemp3").css('display','block')
