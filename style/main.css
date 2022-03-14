@@ -1193,3 +1193,85 @@ footer{
 .allEpisode2{
     display: none;
 }
+
+.moreLike1{
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+}
+
+.moreLike1 img{
+    width: 19vw;
+}
+
+.yearCard{
+    display: flex;
+    align-items: center;
+}
+
+.yearCard p{
+    margin-right: .5em;
+}
+
+.yearCard span{
+    margin-right: .5em;
+}
+
+.yearCard span svg{
+    width: 2em;
+    height: 2em;
+}
+
+.yearCard button{
+    margin-left: 6.5vw;
+}
+
+.media{
+    margin: .25em .5em .25em 0;
+    color: #46d369;
+    font-weight: 700;
+}
+
+.mediaHidden{
+    visibility: hidden;
+    margin: .25em .5em .25em 0;
+    color: #46d369;
+    font-weight: 700;
+    max-width: 100%;
+}
+
+.titleCard{
+    padding: 1em;
+}
+
+.bodyCard{
+    font-size: 14px;
+    line-height: 20px;
+    color: #d2d2d2;
+    padding: 0 1em 1em;
+}
+
+.card1,
+.card2,
+.card3{
+    padding: .5em;
+    display: flex;
+}
+
+.bgCard{
+    background-color: #2f2f2f;
+    border-radius: .25em;
+
+}
+
+.card1{
+    min-height: 100%;
+    border-radius: .25em;
+}
+
+.card1 img,
+.card2 img,
+.card3 img{
+    border-top-left-radius: .25em;
+    border-top-right-radius: .25em;
+}
