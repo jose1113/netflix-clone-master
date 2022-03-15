@@ -579,7 +579,10 @@ footer{
 .circle10,
 .circle11,
 .circle12,
-.circle13{
+.circle13,
+.circleCard1,
+.circleCard2,
+.circleCard3{
 	display: flex;
 	width: 3em;
 	height: 3em;
@@ -1254,8 +1257,11 @@ footer{
 .card1,
 .card2,
 .card3{
-    padding: .5em;
     display: flex;
+}
+
+.card1, .card2{
+    margin-right: 0.8em;
 }
 
 .bgCard{
@@ -1274,4 +1280,22 @@ footer{
 .card3 img{
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
+}
+
+.playIconCard1{
+    top: 2550px;
+    right: 655px;
+    position: absolute;
+}
+
+.playIconCard2{
+    top: 2550px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard3{
+    top: 2550px;
+    right: 150px;
+    position: absolute;
 }

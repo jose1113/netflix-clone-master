@@ -133,6 +133,9 @@ $(document).ready(function() {$(".circle11").css('visibility','hidden')})
 $(document).ready(function() {$(".circle12").css('visibility','hidden')})
 $(document).ready(function() {$(".circle13").css('visibility','hidden')})
 $(document).ready(function() {$(".moreChapters").css('display','none')})
+$(document).ready(function() {$(".playIconCard1").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard2").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard3").css('visibility','hidden')})
 
 
 $(".carrosel-filmes1").mouseover(function() { $(".btn").css('visibility','visible'); })
@@ -182,6 +185,15 @@ $(".chapters12").mouseout(function() { $(".circle12").css('visibility','hidden')
 
 $(".chapters13").mouseover(function() { $(".circle13").css('visibility','visible'); })
 $(".chapters13").mouseout(function() { $(".circle13").css('visibility','hidden'); })
+
+$(".card1").mouseover(function() { $(".circleCard1").css('visibility','visible'); })
+$(".card1").mouseout(function() { $(".circleCard1").css('visibility','hidden'); })
+
+$(".card2").mouseover(function() { $(".circleCard2").css('visibility','visible'); })
+$(".card2").mouseout(function() { $(".circleCard2").css('visibility','hidden'); })
+
+$(".card3").mouseover(function() { $(".circleCard3").css('visibility','visible'); })
+$(".card3").mouseout(function() { $(".circleCard3").css('visibility','hidden'); })
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
