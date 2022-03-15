@@ -582,7 +582,10 @@ footer{
 .circle13,
 .circleCard1,
 .circleCard2,
-.circleCard3{
+.circleCard3,
+.circleCard4,
+.circleCard5,
+.circleCard6{
 	display: flex;
 	width: 3em;
 	height: 3em;
@@ -1197,13 +1200,17 @@ footer{
     display: none;
 }
 
-.moreLike1{
+.moreLike1, .moreLike2{
     display: flex;
     color: #fff;
     cursor: pointer;
 }
 
-.moreLike1 img{
+.moreLike2{
+    margin-top: 0.8em;
+}
+
+.moreLike1 img, .moreLike2 img{
     width: 19vw;
 }
 
@@ -1256,11 +1263,17 @@ footer{
 
 .card1,
 .card2,
-.card3{
+.card3,
+.card4,
+.card5,
+.card6{
     display: flex;
 }
 
-.card1, .card2{
+.card1,
+.card2,
+.card4,
+.card5{
     margin-right: 0.8em;
 }
 
@@ -1296,6 +1309,24 @@ footer{
 
 .playIconCard3{
     top: 2550px;
+    right: 150px;
+    position: absolute;
+}
+
+.playIconCard4{
+    top: 2930px;
+    right: 655px;
+    position: absolute;
+}
+
+.playIconCard5{
+    top: 2930px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard6{
+    top: 2930px;
     right: 150px;
     position: absolute;
 }
