@@ -588,7 +588,10 @@ footer{
 .circleCard6,
 .circleCard7,
 .circleCard8,
-.circleCard9{
+.circleCard9,
+.circleCard10,
+.circleCard11,
+.circleCard12{
 	display: flex;
 	width: 3em;
 	height: 3em;
@@ -1205,20 +1208,23 @@ footer{
 
 .moreLike1,
 .moreLike2,
-.moreLike3{
+.moreLike3,
+.moreLike4{
     display: flex;
     color: #fff;
     cursor: pointer;
 }
 
 .moreLike2,
-.moreLike3{
+.moreLike3,
+.moreLike4{
     margin-top: 0.8em;
 }
 
 .moreLike1 img,
 .moreLike2 img,
-.moreLike3 img{
+.moreLike3 img,
+.moreLike4 img{
     width: 19vw;
 }
 
@@ -1277,7 +1283,10 @@ footer{
 .card6,
 .card7,
 .card8,
-.card9{
+.card9,
+.card10,
+.card11,
+.card12{
     display: flex;
 }
 
@@ -1286,7 +1295,9 @@ footer{
 .card4,
 .card5,
 .card7,
-.card8{
+.card8,
+.card10,
+.card11{
     margin-right: 0.8em;
 }
 
@@ -1309,7 +1320,10 @@ footer{
 .card6 img,
 .card7 img,
 .card8 img,
-.card9 img{
+.card9 img,
+.card10 img,
+.card11 img,
+.card12 img{
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
 }
@@ -1364,6 +1378,24 @@ footer{
 
 .playIconCard9{
     top: 3270px;
+    right: 150px;
+    position: absolute;
+}
+
+.playIconCard10{
+    top: 3560px;
+    right: 655px;
+    position: absolute;
+}
+
+.playIconCard11{
+    top: 3560px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard12{
+    top: 3560px;
     right: 150px;
     position: absolute;
 }
