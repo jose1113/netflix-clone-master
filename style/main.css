@@ -1164,12 +1164,16 @@ footer{
     position: absolute;
 }
 
-.circleDivider:hover{
+.circleDivider:hover,
+.circleDivider1:hover,
+.circleDivider2:hover{
     border-color: #fff;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.circleDivider{
+.circleDivider,
+.circleDivider1,
+.circleDivider2{
 	display: flex;
 	width: 2.6em;
 	height: 2.6em;
@@ -1383,24 +1387,24 @@ footer{
 }
 
 .playIconCard10{
-    top: 3560px;
+    top: 4130px;
     right: 655px;
     position: absolute;
 }
 
 .playIconCard11{
-    top: 3560px;
+    top: 4130px;
     right: 400px;
     position: absolute;
 }
 
 .playIconCard12{
-    top: 3560px;
+    top: 4130px;
     right: 150px;
     position: absolute;
 }
 
-.dividerCard{
+.dividerCard1{
     display: flex;
     justify-content: center;
     margin-top: -6em;
@@ -1409,7 +1413,21 @@ footer{
     border-bottom: 2px solid #404040;
 }
 
-.dividerCard .circleDivider{
+.dividerCard2{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard1 .circleDivider1{
     position: absolute;
-    top: 3485px;
+    top: 3487px;
+}
+
+.dividerCard2 .circleDivider2{
+    position: absolute;
+    top: 4423px;
 }

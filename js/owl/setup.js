@@ -145,6 +145,8 @@ $(document).ready(function() {$(".playIconCard9").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard10").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard11").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard12").css('visibility','hidden')})
+$(document).ready(function() {$(".moreLike4").css('display','none')})
+$(document).ready(function() {$(".dividerCard2").css('display','none')})
 
 
 $(".carrosel-filmes1").mouseover(function() { $(".btn").css('visibility','visible'); })
@@ -342,4 +344,38 @@ $("select").change( function(){
         $(".divider2").css('display','none')
         $(".moreChapters").css('display','block')
     }
+})
+
+$(".dividerCard1").on('click', function(){
+    $('.moreChapters').toggle(0, function () {
+        $(".moreLike4").css('display','flex')
+        $(".dividerCard1").css('display','none')
+        $(".dividerCard2").css('display','flex')
+        $(".playIconCard1").css('top','3030px')
+        $(".playIconCard2").css('top','3030px')
+        $(".playIconCard3").css('top','3030px')
+        $(".playIconCard4").css('top','3410px')
+        $(".playIconCard5").css('top','3410px')
+        $(".playIconCard6").css('top','3410px')
+        $(".playIconCard7").css('top','3750px')
+        $(".playIconCard8").css('top','3750px')
+        $(".playIconCard9").css('top','3750px')
+    })
+})
+
+$(".dividerCard2").on('click', function(){
+    $('.moreChapters').toggle(0, function () {
+        $(".moreLike4").css('display','none')
+        $(".dividerCard1").css('display','flex')
+        $(".dividerCard2").css('display','none')
+        $(".playIconCard1").css('top','2550px')
+        $(".playIconCard2").css('top','2550px')
+        $(".playIconCard3").css('top','2550px')
+        $(".playIconCard4").css('top','2930px')
+        $(".playIconCard5").css('top','2930px')
+        $(".playIconCard6").css('top','2930px')
+        $(".playIconCard7").css('top','3270px')
+        $(".playIconCard8").css('top','3270px')
+        $(".playIconCard9").css('top','3270px')
+    })
 })
