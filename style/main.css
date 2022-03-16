@@ -1431,3 +1431,20 @@ footer{
     position: absolute;
     top: 4423px;
 }
+
+.trailers{
+    display: flex;
+    flex-direction: column;
+    padding: 0 3em;
+    background-color: #181818;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.trailers h3{
+    color: #fff;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    font-size: 24px;
+    font-weight: 700;
+}
