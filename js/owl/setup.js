@@ -153,6 +153,10 @@ $(document).ready(function() {$(".playIconTrailer3").css('visibility','hidden')}
 $(document).ready(function() {$(".playIconTrailer4").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconTrailer5").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconTrailer6").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconTrailer7").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconTrailer8").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconTrailer9").css('visibility','hidden')})
+
 
 
 $(".carrosel-filmes1").mouseover(function() { $(".btn").css('visibility','visible'); })
@@ -256,6 +260,7 @@ $(".contentTrailers5").mouseout(function() { $(".circleTrailer5").css('visibilit
 
 $(".contentTrailers6").mouseover(function() { $(".circleTrailer6").css('visibility','visible'); })
 $(".contentTrailers6").mouseout(function() { $(".circleTrailer6").css('visibility','hidden'); })
+
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
@@ -401,5 +406,41 @@ $(".dividerCard2").on('click', function(){
         $(".playIconCard7").css('top','3270px')
         $(".playIconCard8").css('top','3270px')
         $(".playIconCard9").css('top','3270px')
+    })
+})
+
+$(".containerDividerFull1").on('click', function(){
+    $('.circleDividerTrailers1').toggle(0, function () {
+        $(".containerDividerFull1").css('display','none')
+        $(".containerDividerFull2").css('display','block')
+        $(".circleDividerTrailers1").css('display','none')
+        $(".circleDividerTrailers2").css('display','flex')
+
+        $(".contentTrailers7").mouseover(function() { $(".circleTrailer7").css('visibility','visible'); })
+        $(".contentTrailers7").mouseout(function() { $(".circleTrailer7").css('visibility','hidden'); })
+
+        $(".contentTrailers8").mouseover(function() { $(".circleTrailer8").css('visibility','visible'); })
+        $(".contentTrailers8").mouseout(function() { $(".circleTrailer8").css('visibility','hidden'); })
+
+        $(".contentTrailers9").mouseover(function() { $(".circleTrailer9").css('visibility','visible'); })
+        $(".contentTrailers9").mouseout(function() { $(".circleTrailer9").css('visibility','hidden'); })
+    })
+})
+
+$(".containerDividerFull2").on('click', function(){
+    $('.circleDividerTrailers2').toggle(0, function () {
+        $(".containerDividerFull1").css('display','block')
+        $(".containerDividerFull2").css('display','none')
+        $(".circleDividerTrailers1").css('display','flex')
+        $(".circleDividerTrailers2").css('display','none')
+
+        $(".contentTrailers7").mouseover(function() { $(".circleTrailer7").css('visibility','hidden'); })
+        $(".contentTrailers7").mouseout(function() { $(".circleTrailer7").css('visibility','hidden'); })
+
+        $(".contentTrailers8").mouseover(function() { $(".circleTrailer8").css('visibility','hidden'); })
+        $(".contentTrailers8").mouseout(function() { $(".circleTrailer8").css('visibility','hidden'); })
+
+        $(".contentTrailers9").mouseover(function() { $(".circleTrailer9").css('visibility','hidden'); })
+        $(".contentTrailers9").mouseout(function() { $(".circleTrailer9").css('visibility','hidden'); })
     })
 })
