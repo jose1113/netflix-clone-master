@@ -1628,3 +1628,80 @@ footer{
     min-height: 100px;
     overflow: hidden;
 }
+
+.about{
+    color: #777;
+}
+
+.about h3{
+    color: #fff;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contentAbout .creation{
+    display: flex;
+}
+
+.contentAbout .creation a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contentAbout .genreAbout a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contentAbout .scenesAbout a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contentAbout .creation a:hover,
+.contentAbout .castAbout a:hover,
+.contentAbout .genreAbout a:hover,
+.contentAbout .scenesAbout a:hover,
+.contentAbout .ratingAbout p a:hover{
+    text-decoration: underline;
+}
+
+.contentAbout{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.contentAbout .castAbout a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contentAbout .creation,
+.contentAbout .castAbout,
+.contentAbout .genreAbout,
+.contentAbout .scenesAbout,
+.contentAbout .ratingAbout{
+    margin-bottom: .5em;
+}
+
+.contentAbout .ratingAbout p svg{
+    margin-right: 1em;
+    width: 2em;
+    height: 2em;
+    margin: 0 .4em 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.contentAbout .ratingAbout p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.modal a.close-modal{
+    width: 36px !important;
+    height: 36px !important;
+    margin: 2em;
+}
