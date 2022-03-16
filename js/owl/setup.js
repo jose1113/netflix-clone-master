@@ -147,6 +147,12 @@ $(document).ready(function() {$(".playIconCard11").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard12").css('visibility','hidden')})
 $(document).ready(function() {$(".moreLike4").css('display','none')})
 $(document).ready(function() {$(".dividerCard2").css('display','none')})
+$(document).ready(function() {$(".playIconTrailer1").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconTrailer2").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconTrailer3").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconTrailer4").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconTrailer5").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconTrailer6").css('visibility','hidden')})
 
 
 $(".carrosel-filmes1").mouseover(function() { $(".btn").css('visibility','visible'); })
@@ -232,6 +238,24 @@ $(".card11").mouseout(function() { $(".circleCard11").css('visibility','hidden')
 
 $(".card12").mouseover(function() { $(".circleCard12").css('visibility','visible'); })
 $(".card12").mouseout(function() { $(".circleCard12").css('visibility','hidden'); })
+
+$(".contentTrailers1").mouseover(function() { $(".circleTrailer1").css('visibility','visible'); })
+$(".contentTrailers1").mouseout(function() { $(".circleTrailer1").css('visibility','hidden'); })
+
+$(".contentTrailers2").mouseover(function() { $(".circleTrailer2").css('visibility','visible'); })
+$(".contentTrailers2").mouseout(function() { $(".circleTrailer2").css('visibility','hidden'); })
+
+$(".contentTrailers3").mouseover(function() { $(".circleTrailer3").css('visibility','visible'); })
+$(".contentTrailers3").mouseout(function() { $(".circleTrailer3").css('visibility','hidden'); })
+
+$(".contentTrailers4").mouseover(function() { $(".circleTrailer4").css('visibility','visible'); })
+$(".contentTrailers4").mouseout(function() { $(".circleTrailer4").css('visibility','hidden'); })
+
+$(".contentTrailers5").mouseover(function() { $(".circleTrailer5").css('visibility','visible'); })
+$(".contentTrailers5").mouseout(function() { $(".circleTrailer5").css('visibility','hidden'); })
+
+$(".contentTrailers6").mouseover(function() { $(".circleTrailer6").css('visibility','visible'); })
+$(".contentTrailers6").mouseout(function() { $(".circleTrailer6").css('visibility','hidden'); })
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
 

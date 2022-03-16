@@ -591,7 +591,13 @@ footer{
 .circleCard9,
 .circleCard10,
 .circleCard11,
-.circleCard12{
+.circleCard12,
+.circleTrailer1,
+.circleTrailer2,
+.circleTrailer3,
+.circleTrailer4,
+.circleTrailer5,
+.circleTrailer6{
 	display: flex;
 	width: 3em;
 	height: 3em;
@@ -1433,8 +1439,6 @@ footer{
 }
 
 .trailers{
-    display: flex;
-    flex-direction: column;
     padding: 0 3em;
     background-color: #181818;
     min-height: 100px;
@@ -1447,4 +1451,82 @@ footer{
     margin-bottom: 2vw;
     font-size: 24px;
     font-weight: 700;
+}
+
+.cardTrailers1,
+.cardTrailers2{
+    display: flex;
+}
+
+.contentTrailers1 img,
+.contentTrailers2 img,
+.contentTrailers3 img,
+.contentTrailers4 img,
+.contentTrailers5 img,
+.contentTrailers6 img{
+    width: 19vw;
+    border: .25em;
+}
+
+.contentTrailers1,
+.contentTrailers2,
+.contentTrailers4,
+.contentTrailers5{
+    margin-right: 0.8em;
+}
+
+.contentTrailers1,
+.contentTrailers2,
+.contentTrailers3,
+.contentTrailers4,
+.contentTrailers5,
+.contentTrailers6{
+    cursor: pointer;
+}
+
+.titleTrailer1 p,
+.titleTrailer2 p,
+.titleTrailer3 p,
+.titleTrailer4 p,
+.titleTrailer5 p,
+.titleTrailer6 p{
+    padding: 1em;
+    color: #fff;
+    font-size: 16px;
+}
+
+.playIconTrailer1{
+    top: 3640px;
+    right: 650px;
+    position: absolute;
+}
+
+.playIconTrailer2{
+    top: 3640px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconTrailer3{
+    top: 3640px;
+    right: 150px;
+    position: absolute;
+}
+
+.playIconTrailer4{
+    top: 3850px;
+    right: 650px;
+    position: absolute;
+}
+
+.playIconTrailer5{
+    top: 3850px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconTrailer6{
+    top: 3850px;
+    right: 150px;
+    position: absolute;
 }
