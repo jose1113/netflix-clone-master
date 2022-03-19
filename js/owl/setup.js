@@ -156,7 +156,6 @@ $(document).ready(function() {$(".playIconTrailer6").css('visibility','hidden')}
 $(document).ready(function() {$(".playIconTrailer7").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconTrailer8").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconTrailer9").css('visibility','hidden')})
-$(document).ready(function() {$("#video-houseofcards").css('display','none')})
 
 
 
@@ -445,21 +444,3 @@ $(".containerDividerFull2").on('click', function(){
         $(".contentTrailers9").mouseout(function() { $(".circleTrailer9").css('visibility','hidden'); })
     })
 })
-
-
-$("#Play").click(function() {
-    $("#video-houseofcards")[0].play()
-    $("#video-houseofcards").css('display','block')
-
-    if ($("#video-houseofcards")[0].requestFullscreen) {
-        $("#video-houseofcards")[0].requestFullscreen()
-      } else if ($("#video-houseofcards")[0].msRequestFullscreen) {
-        $("#video-houseofcards")[0].msRequestFullscreen()
-      } else if ($("#video-houseofcards")[0].mozRequestFullScreen) {
-        $("#video-houseofcards")[0].mozRequestFullScreen()
-      } else if ($("#video-houseofcards")[0].webkitRequestFullscreen) {
-        $("#video-houseofcards")[0].webkitRequestFullscreen()
-      } else if (!document.fullscreenElement){
-        $("#video-houseofcards")[0].pause();
-      }
- })
