@@ -137,12 +137,6 @@ header nav a:hover{
     background-size: cover!important;
     background-position: center!important;
 }
-  
-.item .box-filme:hover {
-    border-radius: 10px;
-    transform: scale(1.5);
-    box-shadow: 0 0 2px #000a;
-}
 
 #botao_anterior, #botao_proximo{
     position: absolute;
