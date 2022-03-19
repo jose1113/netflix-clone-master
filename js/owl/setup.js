@@ -108,14 +108,6 @@ window.onload = function () {
     }
 }
 
-function emcima1() {
-    document.getElementById("img1").src = "./trailer/The-Umbrella-Academy-Trailer-oficial-[HD]-Netflix.gif"
-}
-
-function sair1() {
-    document.getElementById("img1").src = "./img/mini1.jpg"
-}
-
 $(document).ready(function() {$(".btn").css('visibility','hidden')})
 $(document).ready(function() {$(".btn1").css('visibility','hidden')})
 $(document).ready(function() {$(".btn2").css('visibility','hidden')})
