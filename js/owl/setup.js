@@ -147,6 +147,7 @@ $(document).ready(function() {$(".playIconCard11").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard12").css('visibility','hidden')})
 $(document).ready(function() {$(".moreLike4").css('display','none')})
 $(document).ready(function() {$(".dividerCard2").css('display','none')})
+$(document).ready(function() {$(".divider2").css('display','none')})
 $(document).ready(function() {$(".playIconTrailer1").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconTrailer2").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconTrailer3").css('visibility','hidden')})
@@ -291,13 +292,13 @@ function change() {
 $(".divider").on('click', function(){
     $('.moreChapters').toggle(0, function () {
         $(".divider").css('display','none')
-        $(".divider2").css('display','block')
+        $(".divider2").css('display','flex')
     })
 })
 
 $(".divider2").on('click', function(){
     $('.moreChapters').toggle(0, function () {
-        $(".divider").css('display','block')
+        $(".divider").css('display','flex')
         $(".divider2").css('display','none')
     })
 })

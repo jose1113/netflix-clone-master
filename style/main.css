@@ -66,7 +66,7 @@ header nav a:hover{
 
 .filme-principal .titulo{
     margin-top: 15%;
-    font-size: 40px;
+    font-size: 2.7rem;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
@@ -1154,24 +1154,19 @@ footer{
 }
 
 .divider{
-    top: 2390px;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto;
-    width: 40px;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    width: 100%;
+    position: relative;
 }
 
 .divider2{
-    display: none;
-    top: 2870px;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto;
-    width: 40px;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    width: 100%;
+    position: relative;
 }
 
 .circleDivider:hover,
@@ -1304,6 +1299,7 @@ footer{
 .card11,
 .card12{
     display: flex;
+    width: 100%;
 }
 
 .card1,
@@ -1419,10 +1415,20 @@ footer{
 .dividerCard1{
     display: flex;
     justify-content: center;
-    margin-top: -6em;
+    margin-top: -7em;
     width: 100%;
     background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
     border-bottom: 2px solid #404040;
+}
+
+.circleDivider1{
+    position: absolute;
+    margin-top: -18px;
+}
+
+.circleDivider2{
+    position: absolute;
+    margin-top: -18px;
 }
 
 .dividerCard2{
@@ -1432,16 +1438,6 @@ footer{
     width: 100%;
     background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
     border-bottom: 2px solid #404040;
-}
-
-.dividerCard1 .circleDivider1{
-    position: absolute;
-    top: 3487px;
-}
-
-.dividerCard2 .circleDivider2{
-    position: absolute;
-    top: 4423px;
 }
 
 .trailers{
@@ -1568,19 +1564,13 @@ footer{
 }
 
 .dividerTrailers1{
-    position: relative;
-    display: flex;
-    justify-content: center;
     margin-top: -8em;
     width: 100%;
     background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
-    border-bottom: 2px solid #404040;
+    border-top: 2px solid #404040;
 }
 
 .dividerTrailers2{
-    position: relative;
-    display: flex;
-    justify-content: center;
     margin-top: 0;
     width: 100%;
     background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
@@ -1603,20 +1593,22 @@ footer{
     cursor: pointer;
 }
 
+.circleDividerTrailers1{
+    position: absolute;
+    margin-top: -17px;
+}
+
 .containerDividerTrailer1,
 .containerDividerTrailer2{
     display: flex;
     justify-content: center;
-}
-
-.circleDividerTrailers1{
-    position: absolute;
-    top: 4077px;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
 }
 
 .circleDividerTrailers2{
     position: absolute;
-    top: 4205px;
+    margin-top: -22px;
 }
 
 .containerDividerFull2{

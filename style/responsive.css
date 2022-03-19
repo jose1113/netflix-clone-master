@@ -2,11 +2,262 @@
     header .container{
     display: flex;
     flex-direction: column;
+    margin-bottom: 4vw;
     }
 
     .botao{
         margin-top: 5px;
         width: 300px;
+    }
+    .filme-principal .titulo{
+        font-size: 1.7rem;
+    }
+    .filme-principal .descricao{
+        font-size: 0.9em;
+    }
+    footer .flex{
+        flex-wrap: wrap;
+        font-size: 0.9em;
+    }
+    footer .flex1,
+    footer .flex2,
+    footer .flex3{
+        width: 100%;
+        margin-bottom: 4vw;
+    }
+    footer .flex4{
+        width: 100%;
+    }
+    .modal a.close-modal{
+        margin: 1.5em;
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .flexModal{
+        padding: 0 1em;
+        margin-bottom: 0.4em;
+        overflow: hidden;
+    }
+    .botaoPlay{
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .buttonSound{
+        display: none;
+    }
+    .space{
+        position: relative;
+        height: 33vw;
+    }
+    .contentModal{
+        font-size: 0.9em;
+    }
+    .content{
+        padding: 0 2em;
+    }
+    .contentBody{
+        flex-wrap: wrap;
+    }
+    .contentBody .contentText{
+        order: 2;
+    }
+    .contentBody .contentText p{
+        font-size: 1em;
+    }
+    .contentBody .details{
+        order: 1;
+        padding-left: 0;
+    }
+    .contentBody .details .cast,
+    .contentBody .details .genre,
+    .contentBody .details .scenes{
+        font-size: 0.9em;
+    }
+    .episodeSelector{
+        flex-wrap: wrap;
+    }
+    .episodeSelector h3{
+        font-size: 1.5rem;
+        margin-bottom: 3vw;
+    }
+    .episodeSelector select{
+        font-size: 0.6em;
+    }
+    .chapters,
+    .chapters2,
+    .chapters3,
+    .chapters4,
+    .chapters5,
+    .chapters6,
+    .chapters7,
+    .chapters8,
+    .chapters9,
+    .chapters10,
+    .moreChapters .chapters11,
+    .moreChapters .chapters12,
+    .moreChapters .chapters13{
+        flex-wrap: wrap;
+    }
+    .chapters .number,
+    .chapters2 .number,
+    .chapters3 .number,
+    .chapters4 .number,
+    .chapters5 .number,
+    .chapters6 .number,
+    .chapters7 .number,
+    .chapters8 .number,
+    .chapters9 .number,
+    .chapters10 .number,
+    .moreChapters .chapters11 .number,
+    .moreChapters .chapters12 .number,
+    .moreChapters .chapters13 .number{
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        margin-bottom: 2vw;
+        margin-left: 0;
+    }
+    .prevChapter img{
+        width: 50vw;
+    }
+    .contentChapter .titleChapter{
+        font-size: 1.4rem;
+    }
+    .contentChapter p{
+        font-size: 0.9em;
+    }
+    .moreLike h3{
+        font-size: 1.4rem;
+    }
+    .moreLike1,
+    .moreLike2,
+    .moreLike3,
+    .moreLike4{
+        flex-wrap: wrap;
+    }
+    .card1,
+    .card2,
+    .card4,
+    .card5,
+    .card7,
+    .card8,
+    .card10,
+    .card11{
+        margin-bottom: 4vw;
+    }
+    .card1 .bgCard img,
+    .card2 .bgCard img,
+    .card3 .bgCard img,
+    .card4 .bgCard img,
+    .card5 .bgCard img,
+    .card6 .bgCard img,
+    .card7 .bgCard img,
+    .card8 .bgCard img,
+    .card9 .bgCard img,
+    .card10 .bgCard img,
+    .card11 .bgCard img,
+    .card12 .bgCard img{
+        width: 58vw;
+    }
+    .card1 .bgCard .titleCard .yearCard button,
+    .card2 .bgCard .titleCard .yearCard button,
+    .card3 .bgCard .titleCard .yearCard button,
+    .card4 .bgCard .titleCard .yearCard button,
+    .card5 .bgCard .titleCard .yearCard button,
+    .card6 .bgCard .titleCard .yearCard button,
+    .card7 .bgCard .titleCard .yearCard button,
+    .card8 .bgCard .titleCard .yearCard button,
+    .card9 .bgCard .titleCard .yearCard button,
+    .card10 .bgCard .titleCard .yearCard button,
+    .card11 .bgCard .titleCard .yearCard button,
+    .card12 .bgCard .titleCard .yearCard button{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+    .card1 .playIconCard1,
+    .card2 .playIconCard2,
+    .card3 .playIconCard3,
+    .card4 .playIconCard4,
+    .card5 .playIconCard5,
+    .card6 .playIconCard6,
+    .card7 .playIconCard7,
+    .card8 .playIconCard8,
+    .card9 .playIconCard9{
+        display: none;
+    }
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6,
+    .card7,
+    .card8,
+    .card9{
+        overflow: hidden;
+    }
+    .bgCard{
+        width: 58vw;
+    }
+    .trailers{
+        padding-top: 4vw;
+    }
+    .trailers h3{
+        font-size: 1.4rem;
+    }
+    .cardTrailers1,
+    .cardTrailers2,
+    .cardTrailers3{
+        flex-wrap: wrap;
+    }
+    .contentTrailers1 img,
+    .contentTrailers2 img,
+    .contentTrailers3 img,
+    .contentTrailers4 img,
+    .contentTrailers5 img,
+    .contentTrailers6 img,
+    .contentTrailers7 img,
+    .contentTrailers8 img,
+    .contentTrailers9 img{
+        width: 50vw;
+    }
+    .contentTrailers1 .playIconTrailer1,
+    .contentTrailers2 .playIconTrailer2,
+    .contentTrailers3 .playIconTrailer3,
+    .contentTrailers4 .playIconTrailer4,
+    .contentTrailers5 .playIconTrailer5,
+    .contentTrailers6 .playIconTrailer6,
+    .contentTrailers7 .playIconTrailer7,
+    .contentTrailers8 .playIconTrailer8,
+    .contentTrailers9 .playIconTrailer9{
+        display: none;
+    }
+    .contentTrailers1 .titleTrailer1 p,
+    .contentTrailers2 .titleTrailer2 p,
+    .contentTrailers3 .titleTrailer3 p,
+    .contentTrailers4 .titleTrailer4 p,
+    .contentTrailers5 .titleTrailer5 p,
+    .contentTrailers6 .titleTrailer6 p,
+    .contentTrailers7 .titleTrailer7 p,
+    .contentTrailers8 .titleTrailer8 p,
+    .contentTrailers9 .titleTrailer9 p{
+        font-size: 0.9em;
+    }
+    .about{
+        padding-top: 4vw;
+    }
+    .about h3{
+        font-size: 1.1rem;
+    }
+    .about .contentAbout .creation p,
+    .about .contentAbout .castAbout p,
+    .about .contentAbout .genreAbout p,
+    .about .contentAbout .scenesAbout p,
+    .about .contentAbout .ratingAbout p{
+        font-size: 0.9em;
     }
 
 }
