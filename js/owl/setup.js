@@ -157,6 +157,18 @@ $(document).ready(function() {$(".playIconCard21").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard22").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard23").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard24").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard25").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard26").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard27").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard28").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard29").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard30").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard31").css('display','none')})
+$(document).ready(function() {$(".playIconCard32").css('display','none')})
+$(document).ready(function() {$(".playIconCard33").css('display','none')})
+$(document).ready(function() {$(".playIconCard34").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard35").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard36").css('visibility','hidden')})
 $(document).ready(function() {$(".moreLike4").css('display','none')})
 $(document).ready(function() {$(".dividerCard2").css('display','none')})
 $(document).ready(function() {$(".divider2").css('display','none')})
@@ -173,7 +185,9 @@ $(document).ready(function() {$(".playIconCard19").css('display','none')})
 $(document).ready(function() {$(".playIconCard20").css('display','none')})
 $(document).ready(function() {$(".playIconCard21").css('display','none')})
 $(document).ready(function() {$(".moreLike8").css('display','none')})
+$(document).ready(function() {$(".moreLike12").css('display','none')})
 $(document).ready(function() {$(".dividerCard4").css('display','none')})
+$(document).ready(function() {$(".dividerCard6").css('display','none')})
 
 
 
@@ -297,6 +311,42 @@ $(".card23").mouseout(function() { $(".circleCard23").css('visibility','hidden')
 $(".card24").mouseover(function() { $(".circleCard24").css('visibility','visible'); })
 $(".card24").mouseout(function() { $(".circleCard24").css('visibility','hidden'); })
 
+$(".card25").mouseover(function() { $(".circleCard25").css('visibility','visible'); })
+$(".card25").mouseout(function() { $(".circleCard25").css('visibility','hidden'); })
+
+$(".card26").mouseover(function() { $(".circleCard26").css('visibility','visible'); })
+$(".card26").mouseout(function() { $(".circleCard26").css('visibility','hidden'); })
+
+$(".card27").mouseover(function() { $(".circleCard27").css('visibility','visible'); })
+$(".card27").mouseout(function() { $(".circleCard27").css('visibility','hidden'); })
+
+$(".card28").mouseover(function() { $(".circleCard28").css('visibility','visible'); })
+$(".card28").mouseout(function() { $(".circleCard28").css('visibility','hidden'); })
+
+$(".card29").mouseover(function() { $(".circleCard29").css('visibility','visible'); })
+$(".card29").mouseout(function() { $(".circleCard29").css('visibility','hidden'); })
+
+$(".card30").mouseover(function() { $(".circleCard30").css('visibility','visible'); })
+$(".card30").mouseout(function() { $(".circleCard30").css('visibility','hidden'); })
+
+$(".card31").mouseover(function() { $(".circleCard31").css('visibility','visible'); })
+$(".card31").mouseout(function() { $(".circleCard31").css('visibility','hidden'); })
+
+$(".card32").mouseover(function() { $(".circleCard32").css('visibility','visible'); })
+$(".card32").mouseout(function() { $(".circleCard32").css('visibility','hidden'); })
+
+$(".card33").mouseover(function() { $(".circleCard33").css('visibility','visible'); })
+$(".card33").mouseout(function() { $(".circleCard33").css('visibility','hidden'); })
+
+$(".card34").mouseover(function() { $(".circleCard34").css('visibility','visible'); })
+$(".card34").mouseout(function() { $(".circleCard34").css('visibility','hidden'); })
+
+$(".card35").mouseover(function() { $(".circleCard35").css('visibility','visible'); })
+$(".card35").mouseout(function() { $(".circleCard35").css('visibility','hidden'); })
+
+$(".card36").mouseover(function() { $(".circleCard36").css('visibility','visible'); })
+$(".card36").mouseout(function() { $(".circleCard36").css('visibility','hidden'); })
+
 $(".contentTrailers1").mouseover(function() { $(".circleTrailer1").css('visibility','visible'); })
 $(".contentTrailers1").mouseout(function() { $(".circleTrailer1").css('visibility','hidden'); })
 
@@ -344,6 +394,19 @@ function change1() {
 
 function change2() {
   let i = document.getElementById("volume2")
+
+    if (i.classList.contains("fa-volume-xmark")) {
+      i.classList.remove("fa-volume-xmark");
+      i.classList.add("fa-volume-high");
+    } else {
+      i.classList.remove("fa-volume-high");
+      i.classList.add("fa-volume-xmark");
+      
+    }    
+}
+
+function change3() {
+  let i = document.getElementById("volume3")
 
     if (i.classList.contains("fa-volume-xmark")) {
       i.classList.remove("fa-volume-xmark");
@@ -495,6 +558,28 @@ $(".dividerCard4").on('click', function(){
         $(".playIconCard19").css('display','none')
         $(".playIconCard20").css('display','none')
         $(".playIconCard21").css('display','none')
+    })
+})
+
+$(".dividerCard5").on('click', function(){
+    $('.moreLike12').toggle(0, function () {
+        $(".moreLike12").css('display','flex')
+        $(".dividerCard5").css('display','none')
+        $(".dividerCard6").css('display','flex')
+        $(".playIconCard31").css('display','flex')
+        $(".playIconCard32").css('display','flex')
+        $(".playIconCard33").css('display','flex')
+    })
+})
+
+$(".dividerCard6").on('click', function(){
+    $('.moreLike12').toggle(0, function () {
+        $(".moreLike12").css('display','none')
+        $(".dividerCard5").css('display','flex')
+        $(".dividerCard6").css('display','none')
+        $(".playIconCard31").css('display','none')
+        $(".playIconCard32").css('display','none')
+        $(".playIconCard33").css('display','none')
     })
 })
 
