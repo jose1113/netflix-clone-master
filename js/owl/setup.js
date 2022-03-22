@@ -12,7 +12,8 @@ owl.owlCarousel({
     stagePadding: 50,
     responsive:{
         0:{
-            items:1
+            items:1,
+            margin: 10
         },
         600:{
             items:3,
@@ -32,7 +33,8 @@ owl1.owlCarousel({
     stagePadding: 50,
     responsive:{
         0:{
-            items:1
+            items:1,
+            margin: 10
         },
         600:{
             items:3,
@@ -52,7 +54,8 @@ owl2.owlCarousel({
     stagePadding: 50,
     responsive:{
         0:{
-            items:1
+            items:1,
+            margin: 10
         },
         600:{
             items:3,
@@ -72,7 +75,8 @@ owl3.owlCarousel({
     stagePadding: 50,
     responsive:{
         0:{
-            items:1
+            items:1,
+            margin: 10
         },
         600:{
             items:3,
