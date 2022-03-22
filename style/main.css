@@ -599,6 +599,18 @@ footer{
 .circleCard22,
 .circleCard23,
 .circleCard24,
+.circleCard25,
+.circleCard26,
+.circleCard27,
+.circleCard28,
+.circleCard29,
+.circleCard30,
+.circleCard31,
+.circleCard32,
+.circleCard33,
+.circleCard34,
+.circleCard35,
+.circleCard36,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1180,6 +1192,8 @@ footer{
 .circleDivider2:hover,
 .circleDivider3:hover,
 .circleDivider4:hover,
+.circleDivider5:hover,
+.circleDivider6:hover,
 .circleDividerTrailers1:hover,
 .circleDividerTrailers2:hover{
     border-color: #fff;
@@ -1190,7 +1204,9 @@ footer{
 .circleDivider1,
 .circleDivider2,
 .circleDivider3,
-.circleDivider4{
+.circleDivider4,
+.circleDivider5,
+.circleDivider6{
 	display: flex;
 	width: 2.6em;
 	height: 2.6em;
@@ -1234,7 +1250,11 @@ footer{
 .moreLike5,
 .moreLike6,
 .moreLike7,
-.moreLike8{
+.moreLike8,
+.moreLike9,
+.moreLike10,
+.moreLike11,
+.moreLike12{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1245,7 +1265,10 @@ footer{
 .moreLike4,
 .moreLike6,
 .moreLike7,
-.moreLike8{
+.moreLike8,
+.moreLike10,
+.moreLike11,
+.moreLike12{
     margin-top: 0.8em;
 }
 
@@ -1256,7 +1279,11 @@ footer{
 .moreLike5 img,
 .moreLike6 img,
 .moreLike7 img,
-.moreLike8 img{
+.moreLike8 img,
+.moreLike9 img,
+.moreLike10 img,
+.moreLike11 img,
+.moreLike12 img{
     width: 19vw;
 }
 
@@ -1330,7 +1357,19 @@ footer{
 .card21,
 .card22,
 .card23,
-.card24{
+.card24,
+.card25,
+.card26,
+.card27,
+.card28,
+.card29,
+.card30,
+.card31,
+.card32,
+.card33,
+.card34,
+.card35,
+.card36{
     display: flex;
     width: 100%;
 }
@@ -1350,7 +1389,15 @@ footer{
 .card19,
 .card20,
 .card22,
-.card23{
+.card23,
+.card25,
+.card26,
+.card28,
+.card29,
+.card31,
+.card32,
+.card34,
+.card35{
     margin-right: 0.8em;
 }
 
@@ -1376,7 +1423,31 @@ footer{
 .card9 img,
 .card10 img,
 .card11 img,
-.card12 img{
+.card12 img,
+.card13 img,
+.card14 img,
+.card15 img,
+.card16 img,
+.card17 img,
+.card18 img,
+.card19 img,
+.card20 img,
+.card21 img,
+.card22 img,
+.card23 img,
+.card24 img,
+.card25 img,
+.card26 img,
+.card27 img,
+.card28 img,
+.card29 img,
+.card30 img,
+.card31 img,
+.card32 img,
+.card33 img,
+.card34 img,
+.card35 img,
+.card36 img{
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
 }
@@ -1525,6 +1596,78 @@ footer{
     position: absolute;
 }
 
+.playIconCard25{
+    top: 830px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard26{
+    top: 830px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard27{
+    top: 830px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard28{
+    top: 1190px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard29{
+    top: 1190px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard30{
+    top: 1190px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard31{
+    top: 1590px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard32{
+    top: 1590px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard33{
+    top: 1590px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard34{
+    top: 1950px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard35{
+    top: 1950px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard36{
+    top: 1950px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -1563,6 +1706,24 @@ footer{
 }
 
 .dividerCard4{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard5{
+    display: flex;
+    justify-content: center;
+    margin-top: -6em;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard6{
     display: flex;
     justify-content: center;
     margin-top: 0;
@@ -1752,6 +1913,16 @@ footer{
     margin-top: -17px;
 }
 
+.circleDivider5{
+    position: absolute;
+    margin-top: -17px;
+}
+
+.circleDivider6{
+    position: absolute;
+    margin-top: -17px;
+}
+
 .containerDividerFull2{
     display: none;
 }
@@ -1852,4 +2023,16 @@ footer{
 
 .hidden{
     display: none;
+}
+
+#segundoHomem{
+    background: url("../img/mini12.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
 }
