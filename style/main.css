@@ -587,6 +587,18 @@ footer{
 .circleCard10,
 .circleCard11,
 .circleCard12,
+.circleCard13,
+.circleCard14,
+.circleCard15,
+.circleCard16,
+.circleCard17,
+.circleCard18,
+.circleCard19,
+.circleCard20,
+.circleCard21,
+.circleCard22,
+.circleCard23,
+.circleCard24,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1166,6 +1178,8 @@ footer{
 .circleDivider:hover,
 .circleDivider1:hover,
 .circleDivider2:hover,
+.circleDivider3:hover,
+.circleDivider4:hover,
 .circleDividerTrailers1:hover,
 .circleDividerTrailers2:hover{
     border-color: #fff;
@@ -1174,7 +1188,9 @@ footer{
 
 .circleDivider,
 .circleDivider1,
-.circleDivider2{
+.circleDivider2,
+.circleDivider3,
+.circleDivider4{
 	display: flex;
 	width: 2.6em;
 	height: 2.6em;
@@ -1214,7 +1230,11 @@ footer{
 .moreLike1,
 .moreLike2,
 .moreLike3,
-.moreLike4{
+.moreLike4,
+.moreLike5,
+.moreLike6,
+.moreLike7,
+.moreLike8{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1222,14 +1242,21 @@ footer{
 
 .moreLike2,
 .moreLike3,
-.moreLike4{
+.moreLike4,
+.moreLike6,
+.moreLike7,
+.moreLike8{
     margin-top: 0.8em;
 }
 
 .moreLike1 img,
 .moreLike2 img,
 .moreLike3 img,
-.moreLike4 img{
+.moreLike4 img,
+.moreLike5 img,
+.moreLike6 img,
+.moreLike7 img,
+.moreLike8 img{
     width: 19vw;
 }
 
@@ -1291,7 +1318,19 @@ footer{
 .card9,
 .card10,
 .card11,
-.card12{
+.card12,
+.card13,
+.card14,
+.card15,
+.card16,
+.card17,
+.card18,
+.card19,
+.card20,
+.card21,
+.card22,
+.card23,
+.card24{
     display: flex;
     width: 100%;
 }
@@ -1303,7 +1342,15 @@ footer{
 .card7,
 .card8,
 .card10,
-.card11{
+.card11,
+.card13,
+.card14,
+.card16,
+.card17,
+.card19,
+.card20,
+.card22,
+.card23{
     margin-right: 0.8em;
 }
 
@@ -1406,6 +1453,78 @@ footer{
     position: absolute;
 }
 
+.playIconCard13{
+    top: 855px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard14{
+    top: 855px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard15{
+    top: 855px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard16{
+    top: 1230px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard17{
+    top: 1230px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard18{
+    top: 1230px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard19{
+    top: 1610px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard20{
+    top: 1610px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard21{
+    top: 1610px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard22{
+    top: 2000px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard23{
+    top: 2000px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard24{
+    top: 2000px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -1426,6 +1545,24 @@ footer{
 }
 
 .dividerCard2{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard3{
+    display: flex;
+    justify-content: center;
+    margin-top: -7em;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard4{
     display: flex;
     justify-content: center;
     margin-top: 0;
@@ -1605,6 +1742,16 @@ footer{
     margin-top: -22px;
 }
 
+.circleDivider3{
+    position: absolute;
+    margin-top: -17px;
+}
+
+.circleDivider4{
+    position: absolute;
+    margin-top: -17px;
+}
+
 .containerDividerFull2{
     display: none;
 }
@@ -1691,4 +1838,18 @@ footer{
     width: 36px !important;
     height: 36px !important;
     margin: 2em;
+}
+
+#iceage-buckwild{
+    background: url("../img/mini11.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+}
+
+.hidden{
+    display: none;
 }
