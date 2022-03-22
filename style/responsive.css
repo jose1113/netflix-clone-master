@@ -134,7 +134,11 @@
     .moreLike1,
     .moreLike2,
     .moreLike3,
-    .moreLike4{
+    .moreLike4,
+    .moreLike5,
+    .moreLike6,
+    .moreLike7,
+    .moreLike8{
         flex-wrap: wrap;
     }
     .card1,
@@ -144,7 +148,16 @@
     .card7,
     .card8,
     .card10,
-    .card11{
+    .card11,
+    .card13,
+    .card14,
+    .card16,
+    .card17,
+    .card19,
+    .card20,
+    .card22,
+    .card23,
+    .card24{
         margin-bottom: 4vw;
     }
     .card1 .bgCard img,
@@ -158,7 +171,19 @@
     .card9 .bgCard img,
     .card10 .bgCard img,
     .card11 .bgCard img,
-    .card12 .bgCard img{
+    .card12 .bgCard img,
+    .card13 .bgCard img,
+    .card14 .bgCard img,
+    .card15 .bgCard img,
+    .card16 .bgCard img,
+    .card17 .bgCard img,
+    .card18 .bgCard img,
+    .card19 .bgCard img,
+    .card20 .bgCard img,
+    .card21 .bgCard img,
+    .card22 .bgCard img,
+    .card23 .bgCard img,
+    .card24 .bgCard img{
         width: 58vw;
     }
     .card1 .bgCard .titleCard .yearCard button,
@@ -172,7 +197,19 @@
     .card9 .bgCard .titleCard .yearCard button,
     .card10 .bgCard .titleCard .yearCard button,
     .card11 .bgCard .titleCard .yearCard button,
-    .card12 .bgCard .titleCard .yearCard button{
+    .card12 .bgCard .titleCard .yearCard button,
+    .card13 .bgCard .titleCard .yearCard button,
+    .card14 .bgCard .titleCard .yearCard button,
+    .card15 .bgCard .titleCard .yearCard button,
+    .card16 .bgCard .titleCard .yearCard button,
+    .card17 .bgCard .titleCard .yearCard button,
+    .card18 .bgCard .titleCard .yearCard button,
+    .card19 .bgCard .titleCard .yearCard button,
+    .card20 .bgCard .titleCard .yearCard button,
+    .card21 .bgCard .titleCard .yearCard button,
+    .card22 .bgCard .titleCard .yearCard button,
+    .card23 .bgCard .titleCard .yearCard button,
+    .card24 .bgCard .titleCard .yearCard button{
         display: flex;
         justify-content: end;
         width: 100%;
@@ -185,7 +222,22 @@
     .card6 .playIconCard6,
     .card7 .playIconCard7,
     .card8 .playIconCard8,
-    .card9 .playIconCard9{
+    .card9 .playIconCard9,
+    .card10 .playIconCard10,
+    .card11 .playIconCard11,
+    .card12 .playIconCard12,
+    .card13 .playIconCard13,
+    .card14 .playIconCard14,
+    .card15 .playIconCard15,
+    .card16 .playIconCard16,
+    .card17 .playIconCard17,
+    .card18 .playIconCard18,
+    .card19 .playIconCard19,
+    .card20 .playIconCard20,
+    .card21 .playIconCard21,
+    .card22 .playIconCard22,
+    .card23 .playIconCard23,
+    .card24 .playIconCard24{
         display: none;
     }
     .card1,
@@ -258,6 +310,13 @@
     .about .contentAbout .scenesAbout p,
     .about .contentAbout .ratingAbout p{
         font-size: 0.9em;
+    }
+    .item .box-filme {
+        width: 100%;
+        height: 150px;
+    }
+    .navegacao{
+        display: none;
     }
 
 }
