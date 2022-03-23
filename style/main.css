@@ -623,6 +623,18 @@ footer{
 .circleCard46,
 .circleCard47,
 .circleCard48,
+.circleCard49,
+.circleCard50,
+.circleCard51,
+.circleCard52,
+.circleCard53,
+.circleCard54,
+.circleCard55,
+.circleCard56,
+.circleCard57,
+.circleCard58,
+.circleCard59,
+.circleCard60,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1208,6 +1220,8 @@ footer{
 .circleDivider6:hover,
 .circleDivider7:hover,
 .circleDivider8:hover,
+.circleDivider9:hover,
+.circleDivider10:hover,
 .circleDividerTrailers1:hover,
 .circleDividerTrailers2:hover{
     border-color: #fff;
@@ -1222,7 +1236,9 @@ footer{
 .circleDivider5,
 .circleDivider6,
 .circleDivider7,
-.circleDivider8{
+.circleDivider8,
+.circleDivider9,
+.circleDivider10{
 	display: flex;
 	width: 2.6em;
 	height: 2.6em;
@@ -1274,7 +1290,11 @@ footer{
 .moreLike13,
 .moreLike14,
 .moreLike15,
-.moreLike16{
+.moreLike16,
+.moreLike17,
+.moreLike18,
+.moreLike19,
+.moreLike20{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1291,7 +1311,10 @@ footer{
 .moreLike12,
 .moreLike14,
 .moreLike15,
-.moreLike16{
+.moreLike16,
+.moreLike18,
+.moreLike19,
+.moreLike20{
     margin-top: 0.8em;
 }
 
@@ -1310,7 +1333,11 @@ footer{
 .moreLike13 img,
 .moreLike14 img,
 .moreLike15 img,
-.moreLike16 img{
+.moreLike16 img,
+.moreLike17 img,
+.moreLike18 img,
+.moreLike19 img,
+.moreLike20 img{
     width: 19vw;
 }
 
@@ -1408,7 +1435,19 @@ footer{
 .card45,
 .card46,
 .card47,
-.card48{
+.card48,
+.card49,
+.card50,
+.card51,
+.card52,
+.card53,
+.card54,
+.card55,
+.card56,
+.card57,
+.card58,
+.card59,
+.card60{
     display: flex;
     width: 100%;
 }
@@ -1444,7 +1483,15 @@ footer{
 .card43,
 .card44,
 .card46,
-.card47{
+.card47,
+.card49,
+.card50,
+.card52,
+.card53,
+.card55,
+.card56,
+.card58,
+.card59{
     margin-right: 0.8em;
 }
 
@@ -1799,6 +1846,78 @@ footer{
     position: absolute;
 }
 
+.playIconCard49{
+    top: 830px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard50{
+    top: 830px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard51{
+    top: 830px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard52{
+    top: 1190px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard53{
+    top: 1190px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard54{
+    top: 1190px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard55{
+    top: 1545px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard56{
+    top: 1545px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard57{
+    top: 1545px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard58{
+    top: 1925px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard59{
+    top: 1925px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard60{
+    top: 1925px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -1873,6 +1992,24 @@ footer{
 }
 
 .dividerCard8{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard9{
+    display: flex;
+    justify-content: center;
+    margin-top: -6em;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard10{
     display: flex;
     justify-content: center;
     margin-top: 0;
@@ -2082,6 +2219,16 @@ footer{
     margin-top: -17px;
 }
 
+.circleDivider9{
+    position: absolute;
+    margin-top: -17px;
+}
+
+.circleDivider10{
+    position: absolute;
+    margin-top: -17px;
+}
+
 .containerDividerFull2{
     display: none;
 }
@@ -2127,8 +2274,7 @@ footer{
 .contentAbout .creation a:hover,
 .contentAbout .castAbout a:hover,
 .contentAbout .genreAbout a:hover,
-.contentAbout .scenesAbout a:hover,
-.contentAbout .ratingAbout p a:hover{
+.contentAbout .scenesAbout a:hover{
     text-decoration: underline;
 }
 
@@ -2156,12 +2302,12 @@ footer{
     height: 2em;
     margin: 0 .4em 0 0;
     vertical-align: middle;
-    cursor: pointer;
 }
 
 .contentAbout .ratingAbout p a{
     text-decoration: none;
     color: #fff;
+    cursor: auto;
 }
 
 .modal a.close-modal{
@@ -2198,6 +2344,18 @@ footer{
 
 #filhosprivilegio{
     background: url("../img/mini13.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+}
+
+#bigbug{
+    background: url("../img/mini14.jpg");
     background-repeat: repeat;
     background-size: auto;
     background-repeat: repeat;
