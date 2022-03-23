@@ -611,6 +611,18 @@ footer{
 .circleCard34,
 .circleCard35,
 .circleCard36,
+.circleCard37,
+.circleCard38,
+.circleCard39,
+.circleCard40,
+.circleCard41,
+.circleCard42,
+.circleCard43,
+.circleCard44,
+.circleCard45,
+.circleCard46,
+.circleCard47,
+.circleCard48,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1194,6 +1206,8 @@ footer{
 .circleDivider4:hover,
 .circleDivider5:hover,
 .circleDivider6:hover,
+.circleDivider7:hover,
+.circleDivider8:hover,
 .circleDividerTrailers1:hover,
 .circleDividerTrailers2:hover{
     border-color: #fff;
@@ -1206,7 +1220,9 @@ footer{
 .circleDivider3,
 .circleDivider4,
 .circleDivider5,
-.circleDivider6{
+.circleDivider6,
+.circleDivider7,
+.circleDivider8{
 	display: flex;
 	width: 2.6em;
 	height: 2.6em;
@@ -1254,7 +1270,11 @@ footer{
 .moreLike9,
 .moreLike10,
 .moreLike11,
-.moreLike12{
+.moreLike12,
+.moreLike13,
+.moreLike14,
+.moreLike15,
+.moreLike16{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1268,7 +1288,10 @@ footer{
 .moreLike8,
 .moreLike10,
 .moreLike11,
-.moreLike12{
+.moreLike12,
+.moreLike14,
+.moreLike15,
+.moreLike16{
     margin-top: 0.8em;
 }
 
@@ -1283,7 +1306,11 @@ footer{
 .moreLike9 img,
 .moreLike10 img,
 .moreLike11 img,
-.moreLike12 img{
+.moreLike12 img,
+.moreLike13 img,
+.moreLike14 img,
+.moreLike15 img,
+.moreLike16 img{
     width: 19vw;
 }
 
@@ -1369,7 +1396,19 @@ footer{
 .card33,
 .card34,
 .card35,
-.card36{
+.card36,
+.card37,
+.card38,
+.card39,
+.card40,
+.card41,
+.card42,
+.card43,
+.card44,
+.card45,
+.card46,
+.card47,
+.card48{
     display: flex;
     width: 100%;
 }
@@ -1397,7 +1436,15 @@ footer{
 .card31,
 .card32,
 .card34,
-.card35{
+.card35,
+.card37,
+.card38,
+.card40,
+.card41,
+.card43,
+.card44,
+.card46,
+.card47{
     margin-right: 0.8em;
 }
 
@@ -1447,7 +1494,19 @@ footer{
 .card33 img,
 .card34 img,
 .card35 img,
-.card36 img{
+.card36 img,
+.card37 img,
+.card38 img,
+.card39 img,
+.card40 img,
+.card41 img,
+.card42 img,
+.card43 img,
+.card44 img,
+.card45 img,
+.card46 img,
+.card47 img,
+.card48 img{
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
 }
@@ -1668,6 +1727,78 @@ footer{
     position: absolute;
 }
 
+.playIconCard37{
+    top: 860px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard38{
+    top: 860px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard39{
+    top: 860px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard40{
+    top: 1230px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard41{
+    top: 1230px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard42{
+    top: 1230px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard43{
+    top: 1610px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard44{
+    top: 1610px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard45{
+    top: 1610px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard46{
+    top: 1990px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard47{
+    top: 1990px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard48{
+    top: 1990px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -1724,6 +1855,24 @@ footer{
 }
 
 .dividerCard6{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard7{
+    display: flex;
+    justify-content: center;
+    margin-top: -6em;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard8{
     display: flex;
     justify-content: center;
     margin-top: 0;
@@ -1923,6 +2072,16 @@ footer{
     margin-top: -17px;
 }
 
+.circleDivider7{
+    position: absolute;
+    margin-top: -17px;
+}
+
+.circleDivider8{
+    position: absolute;
+    margin-top: -17px;
+}
+
 .containerDividerFull2{
     display: none;
 }
@@ -2027,6 +2186,18 @@ footer{
 
 #segundoHomem{
     background: url("../img/mini12.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+}
+
+#filhosprivilegio{
+    background: url("../img/mini13.jpg");
     background-repeat: repeat;
     background-size: auto;
     background-repeat: repeat;
