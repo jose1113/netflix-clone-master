@@ -635,6 +635,18 @@ footer{
 .circleCard58,
 .circleCard59,
 .circleCard60,
+.circleCard61,
+.circleCard62,
+.circleCard63,
+.circleCard64,
+.circleCard65,
+.circleCard66,
+.circleCard67,
+.circleCard68,
+.circleCard69,
+.circleCard70,
+.circleCard71,
+.circleCard72,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1222,6 +1234,8 @@ footer{
 .circleDivider8:hover,
 .circleDivider9:hover,
 .circleDivider10:hover,
+.circleDivider11:hover,
+.circleDivider12:hover,
 .circleDividerTrailers1:hover,
 .circleDividerTrailers2:hover{
     border-color: #fff;
@@ -1238,7 +1252,9 @@ footer{
 .circleDivider7,
 .circleDivider8,
 .circleDivider9,
-.circleDivider10{
+.circleDivider10,
+.circleDivider11,
+.circleDivider12{
 	display: flex;
 	width: 2.6em;
 	height: 2.6em;
@@ -1294,7 +1310,11 @@ footer{
 .moreLike17,
 .moreLike18,
 .moreLike19,
-.moreLike20{
+.moreLike20,
+.moreLike21,
+.moreLike22,
+.moreLike23,
+.moreLike24{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1314,7 +1334,10 @@ footer{
 .moreLike16,
 .moreLike18,
 .moreLike19,
-.moreLike20{
+.moreLike20,
+.moreLike22,
+.moreLike23,
+.moreLike24{
     margin-top: 0.8em;
 }
 
@@ -1337,7 +1360,11 @@ footer{
 .moreLike17 img,
 .moreLike18 img,
 .moreLike19 img,
-.moreLike20 img{
+.moreLike20 img,
+.moreLike21 img,
+.moreLike22 img,
+.moreLike23 img,
+.moreLike24 img{
     width: 19vw;
 }
 
@@ -1447,7 +1474,19 @@ footer{
 .card57,
 .card58,
 .card59,
-.card60{
+.card60,
+.card61,
+.card62,
+.card63,
+.card64,
+.card65,
+.card66,
+.card67,
+.card68,
+.card69,
+.card70,
+.card71,
+.card72{
     display: flex;
     width: 100%;
 }
@@ -1491,7 +1530,15 @@ footer{
 .card55,
 .card56,
 .card58,
-.card59{
+.card59,
+.card61,
+.card62,
+.card64,
+.card65,
+.card67,
+.card68,
+.card70,
+.card71{
     margin-right: 0.8em;
 }
 
@@ -1553,7 +1600,31 @@ footer{
 .card45 img,
 .card46 img,
 .card47 img,
-.card48 img{
+.card48 img,
+.card49 img,
+.card50 img,
+.card51 img,
+.card52 img,
+.card53 img,
+.card54 img,
+.card55 img,
+.card56 img,
+.card57 img,
+.card58 img,
+.card59 img,
+.card60 img,
+.card61 img,
+.card62 img,
+.card63 img,
+.card64 img,
+.card65 img,
+.card66 img,
+.card67 img,
+.card68 img,
+.card69 img,
+.card70 img,
+.card71 img,
+.card72 img{
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
 }
@@ -1918,6 +1989,78 @@ footer{
     position: absolute;
 }
 
+.playIconCard61{
+    top: 825px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard62{
+    top: 825px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard63{
+    top: 825px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard64{
+    top: 1165px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard65{
+    top: 1165px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard66{
+    top: 1165px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard67{
+    top: 1525px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard68{
+    top: 1525px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard69{
+    top: 1525px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard70{
+    top: 1890px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard71{
+    top: 1890px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard72{
+    top: 1890px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -2010,6 +2153,24 @@ footer{
 }
 
 .dividerCard10{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard11{
+    display: flex;
+    justify-content: center;
+    margin-top: -6em;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard12{
     display: flex;
     justify-content: center;
     margin-top: 0;
@@ -2225,6 +2386,16 @@ footer{
 }
 
 .circleDivider10{
+    position: absolute;
+    margin-top: -17px;
+}
+
+.circleDivider11{
+    position: absolute;
+    margin-top: -17px;
+}
+
+.circleDivider12{
     position: absolute;
     margin-top: -17px;
 }
