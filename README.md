@@ -5,4 +5,4 @@ This project used HTML, CSS, JS and JQuery, as well as Font Awesome, [Owl Carous
 
 # License
 
-[Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+[MIT License](https://choosealicense.com/licenses/mit/)
