@@ -150,7 +150,11 @@
     .moreLike17,
     .moreLike18,
     .moreLike19,
-    .moreLike20{
+    .moreLike20,
+    .moreLike21,
+    .moreLike22,
+    .moreLike23,
+    .moreLike24{
         flex-wrap: wrap;
     }
     .card1,
@@ -193,7 +197,15 @@
     .card55,
     .card56,
     .card58,
-    .card59{
+    .card59,
+    .card61,
+    .card62,
+    .card64,
+    .card65,
+    .card67,
+    .card68,
+    .card70,
+    .card71{
         margin-bottom: 4vw;
     }
     .card1 .bgCard img,
@@ -255,7 +267,19 @@
     .card57 .bgCard img,
     .card58 .bgCard img,
     .card59 .bgCard img,
-    .card60 .bgCard img{
+    .card60 .bgCard img,
+    .card61 .bgCard img,
+    .card62 .bgCard img,
+    .card63 .bgCard img,
+    .card64 .bgCard img,
+    .card65 .bgCard img,
+    .card66 .bgCard img,
+    .card67 .bgCard img,
+    .card68 .bgCard img,
+    .card69 .bgCard img,
+    .card70 .bgCard img,
+    .card71 .bgCard img,
+    .card72 .bgCard img{
         width: 58vw;
     }
     .card1 .bgCard .titleCard .yearCard button,
@@ -317,7 +341,19 @@
     .card57 .bgCard .titleCard .yearCard button,
     .card58 .bgCard .titleCard .yearCard button,
     .card59 .bgCard .titleCard .yearCard button,
-    .card60 .bgCard .titleCard .yearCard button{
+    .card60 .bgCard .titleCard .yearCard button,
+    .card61 .bgCard .titleCard .yearCard button,
+    .card62 .bgCard .titleCard .yearCard button,
+    .card63 .bgCard .titleCard .yearCard button,
+    .card64 .bgCard .titleCard .yearCard button,
+    .card65 .bgCard .titleCard .yearCard button,
+    .card66 .bgCard .titleCard .yearCard button,
+    .card67 .bgCard .titleCard .yearCard button,
+    .card68 .bgCard .titleCard .yearCard button,
+    .card69 .bgCard .titleCard .yearCard button,
+    .card70 .bgCard .titleCard .yearCard button,
+    .card71 .bgCard .titleCard .yearCard button,
+    .card72 .bgCard .titleCard .yearCard button{
         display: flex;
         justify-content: end;
         width: 100%;
@@ -381,7 +417,19 @@
     .card57 .playIconCard57,
     .card58 .playIconCard58,
     .card59 .playIconCard59,
-    .card60 .playIconCard60{
+    .card60 .playIconCard60,
+    .card61 .playIconCard61,
+    .card62 .playIconCard62,
+    .card63 .playIconCard63,
+    .card64 .playIconCard64,
+    .card65 .playIconCard65,
+    .card66 .playIconCard66,
+    .card67 .playIconCard67,
+    .card68 .playIconCard68,
+    .card69 .playIconCard69,
+    .card70 .playIconCard70,
+    .card71 .playIconCard71,
+    .card72 .playIconCard72{
         display: none;
     }
     .card1,
