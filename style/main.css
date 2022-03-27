@@ -647,6 +647,18 @@ footer{
 .circleCard70,
 .circleCard71,
 .circleCard72,
+.circleCard73,
+.circleCard74,
+.circleCard75,
+.circleCard76,
+.circleCard77,
+.circleCard78,
+.circleCard79,
+.circleCard80,
+.circleCard81,
+.circleCard82,
+.circleCard83,
+.circleCard84,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1236,6 +1248,8 @@ footer{
 .circleDivider10:hover,
 .circleDivider11:hover,
 .circleDivider12:hover,
+.circleDivider13:hover,
+.circleDivider14:hover,
 .circleDividerTrailers1:hover,
 .circleDividerTrailers2:hover{
     border-color: #fff;
@@ -1254,7 +1268,9 @@ footer{
 .circleDivider9,
 .circleDivider10,
 .circleDivider11,
-.circleDivider12{
+.circleDivider12,
+.circleDivider13,
+.circleDivider14{
 	display: flex;
 	width: 2.6em;
 	height: 2.6em;
@@ -1314,7 +1330,11 @@ footer{
 .moreLike21,
 .moreLike22,
 .moreLike23,
-.moreLike24{
+.moreLike24,
+.moreLike25,
+.moreLike26,
+.moreLike27,
+.moreLike28{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1337,7 +1357,10 @@ footer{
 .moreLike20,
 .moreLike22,
 .moreLike23,
-.moreLike24{
+.moreLike24,
+.moreLike26,
+.moreLike27,
+.moreLike28{
     margin-top: 0.8em;
 }
 
@@ -1364,7 +1387,11 @@ footer{
 .moreLike21 img,
 .moreLike22 img,
 .moreLike23 img,
-.moreLike24 img{
+.moreLike24 img,
+.moreLike25 img,
+.moreLike26 img,
+.moreLike27 img,
+.moreLike28 img{
     width: 19vw;
 }
 
@@ -1486,7 +1513,19 @@ footer{
 .card69,
 .card70,
 .card71,
-.card72{
+.card72,
+.card73,
+.card74,
+.card75,
+.card76,
+.card77,
+.card78,
+.card79,
+.card80,
+.card81,
+.card82,
+.card83,
+.card84{
     display: flex;
     width: 100%;
 }
@@ -1538,7 +1577,15 @@ footer{
 .card67,
 .card68,
 .card70,
-.card71{
+.card71,
+.card73,
+.card74,
+.card76,
+.card77,
+.card79,
+.card80,
+.card82,
+.card83{
     margin-right: 0.8em;
 }
 
@@ -1624,7 +1671,19 @@ footer{
 .card69 img,
 .card70 img,
 .card71 img,
-.card72 img{
+.card72 img,
+.card73 img,
+.card74 img,
+.card75 img,
+.card76 img,
+.card77 img,
+.card78 img,
+.card79 img,
+.card80 img,
+.card81 img,
+.card82 img,
+.card83 img,
+.card84 img{
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
 }
@@ -2061,6 +2120,78 @@ footer{
     position: absolute;
 }
 
+.playIconCard73{
+    top: 810px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard74{
+    top: 810px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard75{
+    top: 810px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard76{
+    top: 1185px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard77{
+    top: 1185px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard78{
+    top: 1185px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard79{
+    top: 1565px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard80{
+    top: 1565px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard81{
+    top: 1565px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard82{
+    top: 1930px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard83{
+    top: 1930px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard84{
+    top: 1930px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -2171,6 +2302,24 @@ footer{
 }
 
 .dividerCard12{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard13{
+    display: flex;
+    justify-content: center;
+    margin-top: -6em;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard14{
     display: flex;
     justify-content: center;
     margin-top: 0;
@@ -2400,6 +2549,16 @@ footer{
     margin-top: -17px;
 }
 
+.circleDivider13{
+    position: absolute;
+    margin-top: -17px;
+}
+
+.circleDivider14{
+    position: absolute;
+    margin-top: -17px;
+}
+
 .containerDividerFull2{
     display: none;
 }
@@ -2539,6 +2698,18 @@ footer{
 
 #hotelTransilvania{
     background: url("../img/mini15.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+}
+
+#myfathersviolin{
+    background: url("../img/mini16.jpg");
     background-repeat: repeat;
     background-size: auto;
     background-repeat: repeat;
