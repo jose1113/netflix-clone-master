@@ -694,6 +694,18 @@ footer{
 .circleCard118,
 .circleCard119,
 .circleCard120,
+.circleCard121,
+.circleCard122,
+.circleCard123,
+.circleCard124,
+.circleCard125,
+.circleCard126,
+.circleCard127,
+.circleCard128,
+.circleCard129,
+.circleCard130,
+.circleCard131,
+.circleCard132,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1291,6 +1303,8 @@ footer{
 .circleDivider18:hover,
 .circleDivider19:hover,
 .circleDivider20:hover,
+.circleDivider21:hover,
+.circleDivider22:hover,
 .circleDividerTrailers1:hover,
 .circleDividerTrailers2:hover{
     border-color: #fff;
@@ -1317,7 +1331,9 @@ footer{
 .circleDivider17,
 .circleDivider18,
 .circleDivider19,
-.circleDivider20{
+.circleDivider20,
+.circleDivider21,
+.circleDivider22{
 	display: flex;
 	width: 2.6em;
 	height: 2.6em;
@@ -1389,10 +1405,15 @@ footer{
 .moreLike33,
 .moreLike34,
 .moreLike35,
+.moreLike36,
 .moreLike37,
 .moreLike38,
 .moreLike39,
-.moreLike40{
+.moreLike40,
+.moreLike41,
+.moreLike42,
+.moreLike43,
+.moreLike44{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1427,7 +1448,10 @@ footer{
 .moreLike36,
 .moreLike38,
 .moreLike39,
-.moreLike40{
+.moreLike40,
+.moreLike42,
+.moreLike43,
+.moreLike44{
     margin-top: 0.8em;
 }
 
@@ -1470,7 +1494,11 @@ footer{
 .moreLike37 img,
 .moreLike38 img,
 .moreLike39 img,
-.moreLike40 img{
+.moreLike40 img,
+.moreLike41 img,
+.moreLike42 img,
+.moreLike43 img,
+.moreLike44 img{
     width: 19vw;
 }
 
@@ -1640,7 +1668,19 @@ footer{
 .card117,
 .card118,
 .card119,
-.card120{
+.card120,
+.card121,
+.card122,
+.card123,
+.card124,
+.card125,
+.card126,
+.card127,
+.card128,
+.card129,
+.card130,
+.card131,
+.card132{
     display: flex;
     width: 100%;
 }
@@ -1724,14 +1764,21 @@ footer{
 .card115,
 .card116,
 .card118,
-.card119{
+.card119,
+.card121,
+.card122,
+.card124,
+.card125,
+.card127,
+.card128,
+.card130,
+.card131{
     margin-right: 0.8em;
 }
 
 .bgCard{
     background-color: #2f2f2f;
     border-radius: .25em;
-
 }
 
 .card1{
@@ -1858,7 +1905,18 @@ footer{
 .card117 img,
 .card118 img,
 .card119 img,
-.card120 img{
+.card120 img,
+.card121 img,
+.card122 img,
+.card123 img,
+.card124 img,
+.card125 img,
+.card126 img,
+.card127 img,
+.card128 img,
+.card129 img,
+.card130 img,
+.card131 img{
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
 }
@@ -2583,6 +2641,78 @@ footer{
     position: absolute;
 }
 
+.playIconCard121{
+    top: 825px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard122{
+    top: 825px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard123{
+    top: 825px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard124{
+    top: 1190px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard125{
+    top: 1190px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard126{
+    top: 1190px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard127{
+    top: 1570px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard128{
+    top: 1570px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard129{
+    top: 1570px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard130{
+    top: 1955px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard131{
+    top: 1955px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard132{
+    top: 1955px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -2765,6 +2895,24 @@ footer{
 }
 
 .dividerCard20{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard21{
+    display: flex;
+    justify-content: center;
+    margin-top: -6em;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard22{
     display: flex;
     justify-content: center;
     margin-top: 0;
@@ -3034,6 +3182,16 @@ footer{
     margin-top: -17px;
 }
 
+.circleDivider21{
+    position: absolute;
+    margin-top: -17px;
+}
+
+.circleDivider22{
+    position: absolute;
+    margin-top: -17px;
+}
+
 .containerDividerFull2{
     display: none;
 }
@@ -3221,6 +3379,18 @@ footer{
 
 #skyeverywhere{
     background: url("../img/mini19.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+}
+
+#mothersrevolution{
+    background: url("../img/mini20.jpg");
     background-repeat: repeat;
     background-size: auto;
     background-repeat: repeat;
