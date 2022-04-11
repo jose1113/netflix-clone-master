@@ -682,6 +682,18 @@ footer{
 .circleCard106,
 .circleCard107,
 .circleCard108,
+.circleCard109,
+.circleCard110,
+.circleCard111,
+.circleCard112,
+.circleCard113,
+.circleCard114,
+.circleCard115,
+.circleCard116,
+.circleCard117,
+.circleCard118,
+.circleCard119,
+.circleCard120,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1277,6 +1289,8 @@ footer{
 .circleDivider16:hover,
 .circleDivider17:hover,
 .circleDivider18:hover,
+.circleDivider19:hover,
+.circleDivider20:hover,
 .circleDividerTrailers1:hover,
 .circleDividerTrailers2:hover{
     border-color: #fff;
@@ -1301,7 +1315,9 @@ footer{
 .circleDivider15,
 .circleDivider16,
 .circleDivider17,
-.circleDivider18{
+.circleDivider18,
+.circleDivider19,
+.circleDivider20{
 	display: flex;
 	width: 2.6em;
 	height: 2.6em;
@@ -1373,7 +1389,10 @@ footer{
 .moreLike33,
 .moreLike34,
 .moreLike35,
-.moreLike36{
+.moreLike37,
+.moreLike38,
+.moreLike39,
+.moreLike40{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1405,7 +1424,10 @@ footer{
 .moreLike32,
 .moreLike34,
 .moreLike35,
-.moreLike36{
+.moreLike36,
+.moreLike38,
+.moreLike39,
+.moreLike40{
     margin-top: 0.8em;
 }
 
@@ -1444,7 +1466,11 @@ footer{
 .moreLike33 img,
 .moreLike34 img,
 .moreLike35 img,
-.moreLike36 img{
+.moreLike36 img,
+.moreLike37 img,
+.moreLike38 img,
+.moreLike39 img,
+.moreLike40 img{
     width: 19vw;
 }
 
@@ -1602,7 +1628,19 @@ footer{
 .card105,
 .card106,
 .card107,
-.card108{
+.card108,
+.card109,
+.card110,
+.card111,
+.card112,
+.card113,
+.card114,
+.card115,
+.card116,
+.card117,
+.card118,
+.card119,
+.card120{
     display: flex;
     width: 100%;
 }
@@ -1678,7 +1716,15 @@ footer{
 .card103,
 .card104,
 .card106,
-.card107{
+.card107,
+.card109,
+.card110,
+.card112,
+.card113,
+.card115,
+.card116,
+.card118,
+.card119{
     margin-right: 0.8em;
 }
 
@@ -1776,7 +1822,43 @@ footer{
 .card81 img,
 .card82 img,
 .card83 img,
-.card84 img{
+.card84 img,
+.card85 img,
+.card86 img,
+.card87 img,
+.card88 img,
+.card89 img,
+.card90 img,
+.card91 img,
+.card92 img,
+.card93 img,
+.card94 img,
+.card95 img,
+.card96 img,
+.card97 img,
+.card98 img,
+.card99 img,
+.card100 img,
+.card101 img,
+.card102 img,
+.card103 img,
+.card104 img,
+.card105 img,
+.card106 img,
+.card107 img,
+.card108 img,
+.card109 img,
+.card110 img,
+.card111 img,
+.card112 img,
+.card113 img,
+.card114 img,
+.card115 img,
+.card116 img,
+.card117 img,
+.card118 img,
+.card119 img,
+.card120 img{
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
 }
@@ -2429,6 +2511,78 @@ footer{
     position: absolute;
 }
 
+.playIconCard109{
+    top: 820px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard110{
+    top: 820px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard111{
+    top: 820px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard112{
+    top: 1185px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard113{
+    top: 1185px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard114{
+    top: 1185px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard115{
+    top: 1570px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard116{
+    top: 1570px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard117{
+    top: 1570px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard118{
+    top: 1930px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard119{
+    top: 1930px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard120{
+    top: 1930px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -2593,6 +2747,24 @@ footer{
 }
 
 .dividerCard18{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard19{
+    display: flex;
+    justify-content: center;
+    margin-top: -6em;
+    width: 100%;
+    background-image: linear-gradient(to top,#181818 0,rgba(24,24,24,.7) 20%,rgba(24,24,24,.4) 30%,transparent 50%);
+    border-bottom: 2px solid #404040;
+}
+
+.dividerCard20{
     display: flex;
     justify-content: center;
     margin-top: 0;
@@ -2852,6 +3024,16 @@ footer{
     margin-top: -17px;
 }
 
+.circleDivider19{
+    position: absolute;
+    margin-top: -17px;
+}
+
+.circleDivider20{
+    position: absolute;
+    margin-top: -17px;
+}
+
 .containerDividerFull2{
     display: none;
 }
@@ -3035,4 +3217,20 @@ footer{
     background-size: 100%;
     color: black;
     overflow: hidden;
+}
+
+#skyeverywhere{
+    background: url("../img/mini19.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+}
+
+#skyeverywhere .flexModal{
+    margin-bottom: 0.5em;
 }
