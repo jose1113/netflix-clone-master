@@ -712,6 +712,12 @@ footer{
 .circleCard136,
 .circleCard137,
 .circleCard138,
+.circleCard139,
+.circleCard140,
+.circleCard141,
+.circleCard142,
+.circleCard143,
+.circleCard144,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1421,7 +1427,9 @@ footer{
 .moreLike43,
 .moreLike44,
 .moreLike45,
-.moreLike46{
+.moreLike46,
+.moreLike47,
+.moreLike48{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1460,7 +1468,8 @@ footer{
 .moreLike42,
 .moreLike43,
 .moreLike44,
-.moreLike46{
+.moreLike46,
+.moreLike48{
     margin-top: 0.8em;
 }
 
@@ -1509,7 +1518,9 @@ footer{
 .moreLike43 img,
 .moreLike44 img,
 .moreLike45 img,
-.moreLike46 img{
+.moreLike46 img,
+.moreLike47 img,
+.moreLike48 img{
     width: 19vw;
 }
 
@@ -1697,7 +1708,13 @@ footer{
 .card135,
 .card136,
 .card137,
-.card138{
+.card138,
+.card139,
+.card140,
+.card141,
+.card142,
+.card143,
+.card144{
     display: flex;
     width: 100%;
 }
@@ -1793,7 +1810,11 @@ footer{
 .card133,
 .card134,
 .card136,
-.card137{
+.card137,
+.card139,
+.card140,
+.card142,
+.card143{
     margin-right: 0.8em;
 }
 
@@ -1944,7 +1965,13 @@ footer{
 .card135 img,
 .card136 img,
 .card137 img,
-.card138 img{
+.card138 img,
+.card139 img,
+.card140 img,
+.card141 img,
+.card142 img,
+.card143 img,
+.card144 img{
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
 }
@@ -2777,6 +2804,42 @@ footer{
     position: absolute;
 }
 
+.playIconCard139{
+    top: 945px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard140{
+    top: 945px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard141{
+    top: 945px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard142{
+    top: 1325px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard143{
+    top: 1325px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard144{
+    top: 1325px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -3475,6 +3538,22 @@ footer{
     background-size: 100%;
     color: black;
     overflow: hidden;
+}
+
+#starwars{
+    background: url("../img/mini2.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+}
+
+#starwars .flexModal{
+    padding-top: 23vw;
 }
 
 #skyeverywhere .flexModal{
