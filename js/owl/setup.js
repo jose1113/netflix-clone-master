@@ -270,6 +270,13 @@ $(document).ready(function() {$(".playIconCard134").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard135").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard136").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard137").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard138").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard139").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard140").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard141").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard142").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard143").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard144").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconTrailer1").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconTrailer2").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconTrailer3").css('visibility','hidden')})
@@ -770,6 +777,24 @@ $(".card137").mouseout(function() { $(".circleCard137").css('visibility','hidden
 $(".card138").mouseover(function() { $(".circleCard138").css('visibility','visible'); })
 $(".card138").mouseout(function() { $(".circleCard138").css('visibility','hidden'); })
 
+$(".card139").mouseover(function() { $(".circleCard139").css('visibility','visible'); })
+$(".card139").mouseout(function() { $(".circleCard139").css('visibility','hidden'); })
+
+$(".card140").mouseover(function() { $(".circleCard140").css('visibility','visible'); })
+$(".card140").mouseout(function() { $(".circleCard140").css('visibility','hidden'); })
+
+$(".card141").mouseover(function() { $(".circleCard141").css('visibility','visible'); })
+$(".card141").mouseout(function() { $(".circleCard141").css('visibility','hidden'); })
+
+$(".card142").mouseover(function() { $(".circleCard142").css('visibility','visible'); })
+$(".card142").mouseout(function() { $(".circleCard142").css('visibility','hidden'); })
+
+$(".card143").mouseover(function() { $(".circleCard143").css('visibility','visible'); })
+$(".card143").mouseout(function() { $(".circleCard143").css('visibility','hidden'); })
+
+$(".card144").mouseover(function() { $(".circleCard144").css('visibility','visible'); })
+$(".card144").mouseout(function() { $(".circleCard144").css('visibility','hidden'); })
+
 $(".contentTrailers1").mouseover(function() { $(".circleTrailer1").css('visibility','visible'); })
 $(".contentTrailers1").mouseout(function() { $(".circleTrailer1").css('visibility','hidden'); })
 
@@ -918,8 +943,22 @@ function change9() {
         
       }    
   }
+
 function change10() {
     let i = document.getElementById("volume10")
+  
+      if (i.classList.contains("fa-volume-xmark")) {
+        i.classList.remove("fa-volume-xmark");
+        i.classList.add("fa-volume-high");
+      } else {
+        i.classList.remove("fa-volume-high");
+        i.classList.add("fa-volume-xmark");
+        
+      }    
+  }
+
+function change11() {
+    let i = document.getElementById("volume11")
   
       if (i.classList.contains("fa-volume-xmark")) {
         i.classList.remove("fa-volume-xmark");
