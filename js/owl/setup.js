@@ -970,6 +970,45 @@ function change11() {
       }    
   }
 
+function change12() {
+    let i = document.getElementById("volume12")
+  
+      if (i.classList.contains("fa-volume-xmark")) {
+        i.classList.remove("fa-volume-xmark");
+        i.classList.add("fa-volume-high");
+      } else {
+        i.classList.remove("fa-volume-high");
+        i.classList.add("fa-volume-xmark");
+        
+      }    
+  }
+
+function change13() {
+    let i = document.getElementById("volume13")
+
+    if (i.classList.contains("fa-volume-xmark")) {
+        i.classList.remove("fa-volume-xmark");
+        i.classList.add("fa-volume-high");
+    } else {
+        i.classList.remove("fa-volume-high");
+        i.classList.add("fa-volume-xmark");
+
+    }
+}
+
+function change14() {
+    let i = document.getElementById("volume14")
+
+    if (i.classList.contains("fa-volume-xmark")) {
+        i.classList.remove("fa-volume-xmark");
+        i.classList.add("fa-volume-high");
+    } else {
+        i.classList.remove("fa-volume-high");
+        i.classList.add("fa-volume-xmark");
+
+    }
+}
+
 $(".divider").on('click', function(){
     $('.moreChapters').toggle(0, function () {
         $(".divider").css('display','none')
