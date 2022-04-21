@@ -316,7 +316,7 @@ footer{
     display: flex;
     align-items: center;
     margin-bottom: 2em;
-    padding: 14vw 3em;
+    padding: 14vw 3em 0;
 }
 
 .tooltipAdd, .tooltipLike, .tooltipDislike{
