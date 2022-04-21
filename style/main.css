@@ -28,7 +28,7 @@ header .container{
 header .logo{
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    font-family: 'Arial Black', Times, serif;
     font-size: 40px;
 }
 
@@ -183,7 +183,6 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 footer{
-    padding: 1rem;
     margin: 50px auto 0;
     padding: 0 4%;
     font-size: 13px;
@@ -235,7 +234,7 @@ footer{
 }
 
 #moreInfo{
-    background: url("../img/previa-house-of-cards.jpg");
+    background-image: url("../img/previa-house-of-cards.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
@@ -245,10 +244,7 @@ footer{
 .botaoPlay{
     background-color: white;
     color: black;
-    padding-left: 2rem;
-    padding-right: 2.4rem;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding: 4px 2.4rem 4px 2rem;
     border-radius: 4px;
     min-height: 32px;
     max-height: 42px;
@@ -320,8 +316,7 @@ footer{
     display: flex;
     align-items: center;
     margin-bottom: 2em;
-    padding: 0 3em;
-    padding-top: 14vw;
+    padding: 14vw 3em;
 }
 
 .tooltipAdd, .tooltipLike, .tooltipDislike{
@@ -332,7 +327,7 @@ footer{
 }
 
 .modal{
-    padding: 0% !important;
+    padding: 0 !important;
     max-width: 850px !important;
 }
 
@@ -388,8 +383,8 @@ footer{
 .gradientback{
     position:absolute;
     margin-bottom: 26vw;
-    bottom:0px;
-    left:0px;
+    bottom: 0;
+    left: 0;
     width:100%;
     height:50px;
     background: -moz-linear-gradient(top,  rgba(137,255,241,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
@@ -536,8 +531,7 @@ footer{
     display: flex;
     justify-content: space-between;
     color: #fff;
-    padding: 0.7em;
-    padding-bottom: .5em;
+    padding: 0.7em 0 .5em 0;
     font-size: 20px;
     font-weight: 700;
 }
@@ -1323,6 +1317,8 @@ footer{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+.circleDividerTrailers1,
+.circleDividerTrailers2,
 .circleDivider,
 .circleDivider1,
 .circleDivider2,
@@ -3185,22 +3181,6 @@ footer{
     border-bottom: 2px solid #404040;
 }
 
-.circleDividerTrailers1,
-.circleDividerTrailers2{
-    display: flex;
-	width: 2.6em;
-	height: 2.6em;
-    padding: .1em;
-	border: 1px solid #fff;
-	border-radius: 2em;
-	color:#f5f5f5;
-	justify-content: center;
-    align-items: center;
-	text-decoration: none;
-	background-color: rgba(42,42,42,.6);
-    cursor: pointer;
-}
-
 .circleDividerTrailers1{
     position: absolute;
     margin-top: -17px;
@@ -3387,7 +3367,6 @@ footer{
 }
 
 .contentAbout .ratingAbout p svg{
-    margin-right: 1em;
     width: 2em;
     height: 2em;
     margin: 0 .4em 0 0;
@@ -3407,9 +3386,7 @@ footer{
 }
 
 #iceage-buckwild{
-    background: url("../img/mini11.jpg");
-    background-repeat: repeat;
-    background-size: auto;
+    background-image: url("../img/mini11.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
@@ -3421,11 +3398,7 @@ footer{
 }
 
 #segundoHomem{
-    background: url("../img/mini12.jpg");
-    background-repeat: repeat;
-    background-size: auto;
-    background-repeat: repeat;
-    background-size: auto;
+    background-image: url("../img/mini12.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
@@ -3433,11 +3406,7 @@ footer{
 }
 
 #filhosprivilegio{
-    background: url("../img/mini13.jpg");
-    background-repeat: repeat;
-    background-size: auto;
-    background-repeat: repeat;
-    background-size: auto;
+    background-image: url("../img/mini13.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
@@ -3445,11 +3414,7 @@ footer{
 }
 
 #bigbug{
-    background: url("../img/mini14.jpg");
-    background-repeat: repeat;
-    background-size: auto;
-    background-repeat: repeat;
-    background-size: auto;
+    background-image: url("../img/mini14.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
@@ -3457,11 +3422,7 @@ footer{
 }
 
 #hotelTransilvania{
-    background: url("../img/mini15.jpg");
-    background-repeat: repeat;
-    background-size: auto;
-    background-repeat: repeat;
-    background-size: auto;
+    background-image: url("../img/mini15.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
@@ -3469,11 +3430,7 @@ footer{
 }
 
 #myfathersviolin{
-    background: url("../img/mini16.jpg");
-    background-repeat: repeat;
-    background-size: auto;
-    background-repeat: repeat;
-    background-size: auto;
+    background-image: url("../img/mini16.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
@@ -3481,11 +3438,7 @@ footer{
 }
 
 #madeaoretorno{
-    background: url("../img/mini17.jpg");
-    background-repeat: repeat;
-    background-size: auto;
-    background-repeat: repeat;
-    background-size: auto;
+    background-image: url("../img/mini17.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
@@ -3493,11 +3446,7 @@ footer{
 }
 
 #iwantyouback{
-    background: url("../img/mini18.jpg");
-    background-repeat: repeat;
-    background-size: auto;
-    background-repeat: repeat;
-    background-size: auto;
+    background-image: url("../img/mini18.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
@@ -3505,11 +3454,7 @@ footer{
 }
 
 #skyeverywhere{
-    background: url("../img/mini19.jpg");
-    background-repeat: repeat;
-    background-size: auto;
-    background-repeat: repeat;
-    background-size: auto;
+    background-image: url("../img/mini19.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
@@ -3517,11 +3462,7 @@ footer{
 }
 
 #mothersrevolution{
-    background: url("../img/mini20.jpg");
-    background-repeat: repeat;
-    background-size: auto;
-    background-repeat: repeat;
-    background-size: auto;
+    background-image: url("../img/mini20.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
@@ -3529,11 +3470,7 @@ footer{
 }
 
 #transformers5{
-    background: url("../img/mini1.jpg");
-    background-repeat: repeat;
-    background-size: auto;
-    background-repeat: repeat;
-    background-size: auto;
+    background-image: url("../img/mini1.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
@@ -3541,11 +3478,15 @@ footer{
 }
 
 #starwars{
-    background: url("../img/mini2.jpg");
-    background-repeat: repeat;
-    background-size: auto;
-    background-repeat: repeat;
-    background-size: auto;
+    background-image: url("../img/mini2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+}
+
+#estreladaselva{
+    background-image: url("../img/mini3.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
@@ -3554,6 +3495,10 @@ footer{
 
 #starwars .flexModal{
     padding-top: 23vw;
+}
+
+#estreladaselva .flexModal{
+    padding-top: 15vw;
 }
 
 #skyeverywhere .flexModal{
