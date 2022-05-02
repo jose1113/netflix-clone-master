@@ -718,6 +718,12 @@ footer{
 .circleCard148,
 .circleCard149,
 .circleCard150,
+.circleCard151,
+.circleCard152,
+.circleCard153,
+.circleCard154,
+.circleCard155,
+.circleCard156,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1433,7 +1439,9 @@ footer{
 .moreLike47,
 .moreLike48,
 .moreLike49,
-.moreLike50{
+.moreLike50,
+.moreLike51,
+.moreLike52{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1474,7 +1482,8 @@ footer{
 .moreLike44,
 .moreLike46,
 .moreLike48,
-.moreLike50{
+.moreLike50,
+.moreLike52{
     margin-top: 0.8em;
 }
 
@@ -1527,7 +1536,9 @@ footer{
 .moreLike47 img,
 .moreLike48 img,
 .moreLike49 img,
-.moreLike50 img{
+.moreLike50 img,
+.moreLike51 img,
+.moreLike52 img{
     width: 19vw;
 }
 
@@ -1727,7 +1738,13 @@ footer{
 .card147,
 .card148,
 .card149,
-.card150{
+.card150,
+.card151,
+.card152,
+.card153,
+.card154,
+.card155,
+.card156{
     display: flex;
     width: 100%;
 }
@@ -1831,7 +1848,11 @@ footer{
 .card145,
 .card146,
 .card148,
-.card149{
+.card149,
+.card151,
+.card152,
+.card154,
+.card155{
     margin-right: 0.8em;
 }
 
@@ -2899,6 +2920,42 @@ footer{
     position: absolute;
 }
 
+.playIconCard151{
+    top: 960px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard152{
+    top: 960px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard153{
+    top: 960px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard154{
+    top: 1340px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard155{
+    top: 1340px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard156{
+    top: 1340px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -3550,6 +3607,14 @@ footer{
 
 #segredosdaselva{
     background-image: url("../img/mini3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+}
+
+#guerracivil{
+    background-image: url("../img/mini4.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
