@@ -277,6 +277,12 @@ $(document).ready(function() {$(".playIconCard141").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard142").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard143").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard144").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard145").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard146").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard147").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard148").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard149").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard150").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconTrailer1").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconTrailer2").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconTrailer3").css('visibility','hidden')})
@@ -794,6 +800,24 @@ $(".card143").mouseout(function() { $(".circleCard143").css('visibility','hidden
 
 $(".card144").mouseover(function() { $(".circleCard144").css('visibility','visible'); })
 $(".card144").mouseout(function() { $(".circleCard144").css('visibility','hidden'); })
+
+$(".card145").mouseover(function() { $(".circleCard145").css('visibility','visible'); })
+$(".card145").mouseout(function() { $(".circleCard145").css('visibility','hidden'); })
+
+$(".card146").mouseover(function() { $(".circleCard146").css('visibility','visible'); })
+$(".card146").mouseout(function() { $(".circleCard146").css('visibility','hidden'); })
+
+$(".card147").mouseover(function() { $(".circleCard147").css('visibility','visible'); })
+$(".card147").mouseout(function() { $(".circleCard147").css('visibility','hidden'); })
+
+$(".card148").mouseover(function() { $(".circleCard148").css('visibility','visible'); })
+$(".card148").mouseout(function() { $(".circleCard148").css('visibility','hidden'); })
+
+$(".card149").mouseover(function() { $(".circleCard149").css('visibility','visible'); })
+$(".card149").mouseout(function() { $(".circleCard149").css('visibility','hidden'); })
+
+$(".card150").mouseover(function() { $(".circleCard150").css('visibility','visible'); })
+$(".card150").mouseout(function() { $(".circleCard150").css('visibility','hidden'); })
 
 $(".contentTrailers1").mouseover(function() { $(".circleTrailer1").css('visibility','visible'); })
 $(".contentTrailers1").mouseout(function() { $(".circleTrailer1").css('visibility','hidden'); })
