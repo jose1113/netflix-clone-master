@@ -712,6 +712,12 @@ footer{
 .circleCard142,
 .circleCard143,
 .circleCard144,
+.circleCard145,
+.circleCard146,
+.circleCard147,
+.circleCard148,
+.circleCard149,
+.circleCard150,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1425,7 +1431,9 @@ footer{
 .moreLike45,
 .moreLike46,
 .moreLike47,
-.moreLike48{
+.moreLike48,
+.moreLike49,
+.moreLike50{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1465,7 +1473,8 @@ footer{
 .moreLike43,
 .moreLike44,
 .moreLike46,
-.moreLike48{
+.moreLike48,
+.moreLike50{
     margin-top: 0.8em;
 }
 
@@ -1516,7 +1525,9 @@ footer{
 .moreLike45 img,
 .moreLike46 img,
 .moreLike47 img,
-.moreLike48 img{
+.moreLike48 img,
+.moreLike49 img,
+.moreLike50 img{
     width: 19vw;
 }
 
@@ -1710,7 +1721,13 @@ footer{
 .card141,
 .card142,
 .card143,
-.card144{
+.card144,
+.card145,
+.card146,
+.card147,
+.card148,
+.card149,
+.card150{
     display: flex;
     width: 100%;
 }
@@ -1810,7 +1827,11 @@ footer{
 .card139,
 .card140,
 .card142,
-.card143{
+.card143,
+.card145,
+.card146,
+.card148,
+.card149{
     margin-right: 0.8em;
 }
 
@@ -1967,7 +1988,13 @@ footer{
 .card141 img,
 .card142 img,
 .card143 img,
-.card144 img{
+.card144 img,
+.card145 img,
+.card146 img,
+.card147 img,
+.card148 img,
+.card149 img,
+.card150 img{
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
 }
@@ -2836,6 +2863,42 @@ footer{
     position: absolute;
 }
 
+.playIconCard145{
+    top: 860px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard146{
+    top: 860px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard147{
+    top: 860px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard148{
+    top: 1240px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard149{
+    top: 1240px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard150{
+    top: 1240px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -3485,7 +3548,7 @@ footer{
     overflow: hidden;
 }
 
-#estreladaselva{
+#segredosdaselva{
     background-image: url("../img/mini3.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -3497,7 +3560,7 @@ footer{
     padding-top: 23vw;
 }
 
-#estreladaselva .flexModal{
+#segredosdaselva .flexModal{
     padding-top: 15vw;
 }
 
