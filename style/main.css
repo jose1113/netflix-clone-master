@@ -748,6 +748,12 @@ footer{
 .circleCard178,
 .circleCard179,
 .circleCard180,
+.circleCard181,
+.circleCard182,
+.circleCard183,
+.circleCard184,
+.circleCard185,
+.circleCard186,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1473,7 +1479,9 @@ footer{
 .moreLike57,
 .moreLike58,
 .moreLike59,
-.moreLike60{
+.moreLike60,
+.moreLike61,
+.moreLike62{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1519,7 +1527,8 @@ footer{
 .moreLike54,
 .moreLike56,
 .moreLike58,
-.moreLike60{
+.moreLike60,
+.moreLike62{
     margin-top: 0.8em;
 }
 
@@ -1582,7 +1591,9 @@ footer{
 .moreLike57 img,
 .moreLike58 img,
 .moreLike59 img,
-.moreLike60 img{
+.moreLike60 img,
+.moreLike61 img,
+.moreLike62 img{
     width: 19vw;
 }
 
@@ -1812,7 +1823,13 @@ footer{
 .card177,
 .card178,
 .card179,
-.card180{
+.card180,
+.card181,
+.card182,
+.card183,
+.card184,
+.card185,
+.card186{
     display: flex;
     width: 100%;
 }
@@ -1936,7 +1953,11 @@ footer{
 .card175,
 .card176,
 .card178,
-.card179{
+.card179,
+.card181,
+.card182,
+.card184,
+.card185{
     margin-right: 0.8em;
 }
 
@@ -2123,7 +2144,19 @@ footer{
 .card171 img,
 .card172 img,
 .card173 img,
-.card174 img{
+.card174 img,
+.card175 img,
+.card176 img,
+.card177 img,
+.card178 img,
+.card179 img,
+.card180 img,
+.card181 img,
+.card182 img,
+.card183 img,
+.card184 img,
+.card185 img,
+.card186 img{
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
 }
@@ -3208,6 +3241,42 @@ footer{
     position: absolute;
 }
 
+.playIconCard181{
+    top: 850px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard182{
+    top: 850px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard183{
+    top: 850px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard184{
+    top: 1220px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard185{
+    top: 1220px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard186{
+    top: 1220px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -3899,6 +3968,14 @@ footer{
 
 #sobrenatural{
     background-image: url("../img/mini8.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+}
+
+#belaeafera{
+    background-image: url("../img/mini9.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
