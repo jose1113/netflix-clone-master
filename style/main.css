@@ -724,6 +724,12 @@ footer{
 .circleCard154,
 .circleCard155,
 .circleCard156,
+.circleCard157,
+.circleCard158,
+.circleCard159,
+.circleCard160,
+.circleCard161,
+.circleCard162,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1441,7 +1447,9 @@ footer{
 .moreLike49,
 .moreLike50,
 .moreLike51,
-.moreLike52{
+.moreLike52,
+.moreLike53,
+.moreLike54{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1483,7 +1491,8 @@ footer{
 .moreLike46,
 .moreLike48,
 .moreLike50,
-.moreLike52{
+.moreLike52,
+.moreLike54{
     margin-top: 0.8em;
 }
 
@@ -1538,7 +1547,9 @@ footer{
 .moreLike49 img,
 .moreLike50 img,
 .moreLike51 img,
-.moreLike52 img{
+.moreLike52 img,
+.moreLike53 img,
+.moreLike54 img{
     width: 19vw;
 }
 
@@ -1744,7 +1755,13 @@ footer{
 .card153,
 .card154,
 .card155,
-.card156{
+.card156,
+.card157,
+.card158,
+.card159,
+.card160,
+.card161,
+.card162{
     display: flex;
     width: 100%;
 }
@@ -1852,7 +1869,11 @@ footer{
 .card151,
 .card152,
 .card154,
-.card155{
+.card155,
+.card157,
+.card158,
+.card160,
+.card161{
     margin-right: 0.8em;
 }
 
@@ -2015,7 +2036,19 @@ footer{
 .card147 img,
 .card148 img,
 .card149 img,
-.card150 img{
+.card150 img,
+.card151 img,
+.card152 img,
+.card153 img,
+.card154 img,
+.card155 img,
+.card156 img,
+.card157 img,
+.card158 img,
+.card159 img,
+.card160 img,
+.card161 img,
+.card162 img{
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
 }
@@ -2956,6 +2989,42 @@ footer{
     position: absolute;
 }
 
+.playIconCard157{
+    top: 985px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard158{
+    top: 985px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard159{
+    top: 985px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard160{
+    top: 1360px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard161{
+    top: 1360px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard162{
+    top: 1360px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -3615,6 +3684,14 @@ footer{
 
 #guerracivil{
     background-image: url("../img/mini4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+}
+
+#hobbit{
+    background-image: url("../img/mini5.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
