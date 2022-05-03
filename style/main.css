@@ -742,6 +742,12 @@ footer{
 .circleCard172,
 .circleCard173,
 .circleCard174,
+.circleCard175,
+.circleCard176,
+.circleCard177,
+.circleCard178,
+.circleCard179,
+.circleCard180,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1465,7 +1471,9 @@ footer{
 .moreLike55,
 .moreLike56,
 .moreLike57,
-.moreLike58{
+.moreLike58,
+.moreLike59,
+.moreLike60{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1510,7 +1518,8 @@ footer{
 .moreLike52,
 .moreLike54,
 .moreLike56,
-.moreLike58{
+.moreLike58,
+.moreLike60{
     margin-top: 0.8em;
 }
 
@@ -1571,7 +1580,9 @@ footer{
 .moreLike55 img,
 .moreLike56 img,
 .moreLike57 img,
-.moreLike58 img{
+.moreLike58 img,
+.moreLike59 img,
+.moreLike60 img{
     width: 19vw;
 }
 
@@ -1795,7 +1806,13 @@ footer{
 .card171,
 .card172,
 .card173,
-.card174{
+.card174,
+.card175,
+.card176,
+.card177,
+.card178,
+.card179,
+.card180{
     display: flex;
     width: 100%;
 }
@@ -1915,7 +1932,11 @@ footer{
 .card169,
 .card170,
 .card172,
-.card173{
+.card173,
+.card175,
+.card176,
+.card178,
+.card179{
     margin-right: 0.8em;
 }
 
@@ -3151,6 +3172,42 @@ footer{
     position: absolute;
 }
 
+.playIconCard175{
+    top: 785px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard176{
+    top: 785px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard177{
+    top: 785px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard178{
+    top: 1160px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard179{
+    top: 1160px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard180{
+    top: 1160px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -3840,12 +3897,24 @@ footer{
     overflow: hidden;
 }
 
+#sobrenatural{
+    background-image: url("../img/mini8.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+}
+
 #starwars .flexModal{
     padding-top: 23vw;
 }
 
 #segredosdaselva .flexModal{
     padding-top: 15vw;
+}
+
+#sobrenatural .flexModal{
+    padding-top: 11vw;
 }
 
 #skyeverywhere .flexModal{
