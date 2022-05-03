@@ -730,6 +730,12 @@ footer{
 .circleCard160,
 .circleCard161,
 .circleCard162,
+.circleCard163,
+.circleCard164,
+.circleCard165,
+.circleCard166,
+.circleCard167,
+.circleCard168,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1449,7 +1455,9 @@ footer{
 .moreLike51,
 .moreLike52,
 .moreLike53,
-.moreLike54{
+.moreLike54,
+.moreLike55,
+.moreLike56{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1492,7 +1500,8 @@ footer{
 .moreLike48,
 .moreLike50,
 .moreLike52,
-.moreLike54{
+.moreLike54,
+.moreLike56{
     margin-top: 0.8em;
 }
 
@@ -1549,7 +1558,9 @@ footer{
 .moreLike51 img,
 .moreLike52 img,
 .moreLike53 img,
-.moreLike54 img{
+.moreLike54 img,
+.moreLike55 img,
+.moreLike56 img{
     width: 19vw;
 }
 
@@ -1761,7 +1772,13 @@ footer{
 .card159,
 .card160,
 .card161,
-.card162{
+.card162,
+.card163,
+.card164,
+.card165,
+.card166,
+.card167,
+.card168{
     display: flex;
     width: 100%;
 }
@@ -1873,7 +1890,11 @@ footer{
 .card157,
 .card158,
 .card160,
-.card161{
+.card161,
+.card163,
+.card164,
+.card166,
+.card167{
     margin-right: 0.8em;
 }
 
@@ -2048,7 +2069,13 @@ footer{
 .card159 img,
 .card160 img,
 .card161 img,
-.card162 img{
+.card162 img,
+.card163 img,
+.card164 img,
+.card165 img,
+.card166 img,
+.card167 img,
+.card168 img{
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
 }
@@ -3025,6 +3052,42 @@ footer{
     position: absolute;
 }
 
+.playIconCard163{
+    top: 860px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard164{
+    top: 860px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard165{
+    top: 860px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard166{
+    top: 1245px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard167{
+    top: 1245px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard168{
+    top: 1245px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -3692,6 +3755,14 @@ footer{
 
 #hobbit{
     background-image: url("../img/mini5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+}
+
+#sherlock{
+    background-image: url("../img/mini6.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
