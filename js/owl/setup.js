@@ -289,6 +289,12 @@ $(document).ready(function() {$(".playIconCard153").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard154").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard155").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconCard156").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard157").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard158").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard159").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard160").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard161").css('visibility','hidden')})
+$(document).ready(function() {$(".playIconCard162").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconTrailer1").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconTrailer2").css('visibility','hidden')})
 $(document).ready(function() {$(".playIconTrailer3").css('visibility','hidden')})
@@ -843,6 +849,24 @@ $(".card155").mouseout(function() { $(".circleCard155").css('visibility','hidden
 $(".card156").mouseover(function() { $(".circleCard156").css('visibility','visible'); })
 $(".card156").mouseout(function() { $(".circleCard156").css('visibility','hidden'); })
 
+$(".card157").mouseover(function() { $(".circleCard157").css('visibility','visible'); })
+$(".card157").mouseout(function() { $(".circleCard157").css('visibility','hidden'); })
+
+$(".card158").mouseover(function() { $(".circleCard158").css('visibility','visible'); })
+$(".card158").mouseout(function() { $(".circleCard158").css('visibility','hidden'); })
+
+$(".card159").mouseover(function() { $(".circleCard159").css('visibility','visible'); })
+$(".card159").mouseout(function() { $(".circleCard159").css('visibility','hidden'); })
+
+$(".card160").mouseover(function() { $(".circleCard160").css('visibility','visible'); })
+$(".card160").mouseout(function() { $(".circleCard160").css('visibility','hidden'); })
+
+$(".card161").mouseover(function() { $(".circleCard161").css('visibility','visible'); })
+$(".card161").mouseout(function() { $(".circleCard161").css('visibility','hidden'); })
+
+$(".card162").mouseover(function() { $(".circleCard162").css('visibility','visible'); })
+$(".card162").mouseout(function() { $(".circleCard162").css('visibility','hidden'); })
+
 $(".contentTrailers1").mouseover(function() { $(".circleTrailer1").css('visibility','visible'); })
 $(".contentTrailers1").mouseout(function() { $(".circleTrailer1").css('visibility','hidden'); })
 
@@ -1059,6 +1083,19 @@ function change14() {
 
 function change15() {
     let i = document.getElementById("volume15")
+
+    if (i.classList.contains("fa-volume-xmark")) {
+        i.classList.remove("fa-volume-xmark");
+        i.classList.add("fa-volume-high");
+    } else {
+        i.classList.remove("fa-volume-high");
+        i.classList.add("fa-volume-xmark");
+
+    }
+}
+
+function change16() {
+    let i = document.getElementById("volume16")
 
     if (i.classList.contains("fa-volume-xmark")) {
         i.classList.remove("fa-volume-xmark");
