@@ -754,6 +754,12 @@ footer{
 .circleCard184,
 .circleCard185,
 .circleCard186,
+.circleCard187,
+.circleCard188,
+.circleCard189,
+.circleCard190,
+.circleCard191,
+.circleCard192,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1481,7 +1487,9 @@ footer{
 .moreLike59,
 .moreLike60,
 .moreLike61,
-.moreLike62{
+.moreLike62,
+.moreLike63,
+.moreLike64{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1528,7 +1536,8 @@ footer{
 .moreLike56,
 .moreLike58,
 .moreLike60,
-.moreLike62{
+.moreLike62,
+.moreLike64{
     margin-top: 0.8em;
 }
 
@@ -1593,7 +1602,9 @@ footer{
 .moreLike59 img,
 .moreLike60 img,
 .moreLike61 img,
-.moreLike62 img{
+.moreLike62 img,
+.moreLike63 img,
+.moreLike64 img{
     width: 19vw;
 }
 
@@ -1829,7 +1840,13 @@ footer{
 .card183,
 .card184,
 .card185,
-.card186{
+.card186,
+.card187,
+.card188,
+.card189,
+.card190,
+.card191,
+.card192{
     display: flex;
     width: 100%;
 }
@@ -1957,7 +1974,11 @@ footer{
 .card181,
 .card182,
 .card184,
-.card185{
+.card185,
+.card187,
+.card188,
+.card190,
+.card191{
     margin-right: 0.8em;
 }
 
@@ -2156,7 +2177,13 @@ footer{
 .card183 img,
 .card184 img,
 .card185 img,
-.card186 img{
+.card186 img,
+.card187 img,
+.card188 img,
+.card189 img,
+.card190 img,
+.card191 img,
+.card192 img{
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
 }
@@ -3277,6 +3304,42 @@ footer{
     position: absolute;
 }
 
+.playIconCard187{
+    top: 825px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard188{
+    top: 825px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard189{
+    top: 825px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard190{
+    top: 1200px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard191{
+    top: 1200px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard192{
+    top: 1200px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -3976,6 +4039,14 @@ footer{
 
 #belaeafera{
     background-image: url("../img/mini9.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+}
+
+#tartarugasninja{
+    background-image: url("../img/mini10.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
