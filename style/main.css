@@ -736,6 +736,12 @@ footer{
 .circleCard166,
 .circleCard167,
 .circleCard168,
+.circleCard169,
+.circleCard170,
+.circleCard171,
+.circleCard172,
+.circleCard173,
+.circleCard174,
 .circleTrailer1,
 .circleTrailer2,
 .circleTrailer3,
@@ -1457,7 +1463,9 @@ footer{
 .moreLike53,
 .moreLike54,
 .moreLike55,
-.moreLike56{
+.moreLike56,
+.moreLike57,
+.moreLike58{
     display: flex;
     color: #fff;
     cursor: pointer;
@@ -1501,7 +1509,8 @@ footer{
 .moreLike50,
 .moreLike52,
 .moreLike54,
-.moreLike56{
+.moreLike56,
+.moreLike58{
     margin-top: 0.8em;
 }
 
@@ -1560,7 +1569,9 @@ footer{
 .moreLike53 img,
 .moreLike54 img,
 .moreLike55 img,
-.moreLike56 img{
+.moreLike56 img,
+.moreLike57 img,
+.moreLike58 img{
     width: 19vw;
 }
 
@@ -1778,7 +1789,13 @@ footer{
 .card165,
 .card166,
 .card167,
-.card168{
+.card168,
+.card169,
+.card170,
+.card171,
+.card172,
+.card173,
+.card174{
     display: flex;
     width: 100%;
 }
@@ -1894,7 +1911,11 @@ footer{
 .card163,
 .card164,
 .card166,
-.card167{
+.card167,
+.card169,
+.card170,
+.card172,
+.card173{
     margin-right: 0.8em;
 }
 
@@ -2075,7 +2096,13 @@ footer{
 .card165 img,
 .card166 img,
 .card167 img,
-.card168 img{
+.card168 img,
+.card169 img,
+.card170 img,
+.card171 img,
+.card172 img,
+.card173 img,
+.card174 img{
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
 }
@@ -3088,6 +3115,42 @@ footer{
     position: absolute;
 }
 
+.playIconCard169{
+    top: 850px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard170{
+    top: 850px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard171{
+    top: 850px;
+    right: 140px;
+    position: absolute;
+}
+
+.playIconCard172{
+    top: 1220px;
+    right: 660px;
+    position: absolute;
+}
+
+.playIconCard173{
+    top: 1220px;
+    right: 400px;
+    position: absolute;
+}
+
+.playIconCard174{
+    top: 1220px;
+    right: 140px;
+    position: absolute;
+}
+
 .dividerCard1{
     display: flex;
     justify-content: center;
@@ -3763,6 +3826,14 @@ footer{
 
 #sherlock{
     background-image: url("../img/mini6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+}
+
+#maostalentosas{
+    background-image: url("../img/mini7.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
